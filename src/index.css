@@ -2,41 +2,48 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
-All colors MUST be HSL.
-*/
+/* Maryam's Portfolio Design System - Modern, minimalist, professional */
 
 @layer base {
   :root {
+    /* Core colors - neutral base with coral accent */
     --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
-
+    --foreground: 215 25% 15%;
+    
+    /* Card system */
     --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
-
-    --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
-
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
-
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
-
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
-
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
-
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
-
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
-
-    --radius: 0.5rem;
+    --card-foreground: 215 25% 15%;
+    
+    /* Interactive elements */
+    --primary: 215 25% 15%;
+    --primary-foreground: 0 0% 100%;
+    
+    /* Coral accent - inspired by reference design */
+    --accent-coral: 12 100% 65%;
+    --accent-coral-foreground: 0 0% 100%;
+    
+    /* Subtle secondary */
+    --secondary: 210 20% 98%;
+    --secondary-foreground: 215 25% 15%;
+    
+    /* Muted elements */
+    --muted: 210 20% 96%;
+    --muted-foreground: 215 15% 45%;
+    
+    /* Form elements */
+    --border: 215 15% 90%;
+    --input: 215 15% 95%;
+    --ring: 12 100% 65%;
+    
+    /* Navigation */
+    --nav-text: 215 15% 35%;
+    --nav-hover: 12 100% 65%;
+    
+    /* Portfolio progress */
+    --progress-line: 215 15% 85%;
+    --progress-active: 12 100% 65%;
+    
+    --radius: 0.375rem;
 
     --sidebar-background: 0 0% 98%;
 
@@ -94,12 +101,60 @@ All colors MUST be HSL.
   }
 }
 
+/* Typography and layout */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
 @layer base {
   * {
     @apply border-border;
   }
 
   body {
-    @apply bg-background text-foreground;
+    @apply bg-background text-foreground font-sans;
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    line-height: 1.6;
+  }
+
+  /* Smooth scrolling */
+  html {
+    scroll-behavior: smooth;
+  }
+
+  /* Custom typography scale */
+  .text-hero {
+    @apply text-5xl md:text-7xl font-bold leading-tight tracking-tight;
+  }
+
+  .text-section-title {
+    @apply text-3xl md:text-4xl font-semibold tracking-tight;
+  }
+
+  .text-body-large {
+    @apply text-lg md:text-xl leading-relaxed;
+  }
+
+  /* Custom animations */
+  .animate-fade-in {
+    animation: fadeIn 0.6s ease-out;
+  }
+
+  .animate-slide-up {
+    animation: slideUp 0.8s ease-out;
+  }
+
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+
+  @keyframes slideUp {
+    from { 
+      opacity: 0;
+      transform: translateY(30px);
+    }
+    to { 
+      opacity: 1;
+      transform: translateY(0);
+    }
   }
 }
