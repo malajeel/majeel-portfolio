@@ -45,24 +45,28 @@ const Home = () => {
 
         {/* Call to Action */}
         <div className="text-left space-y-4">
-          <Link to="/about">
-            <Button 
-              variant="ghost"
-              className="text-coral hover:text-coral/80 text-lg font-medium p-0 h-auto group block"
-            >
-              About me
-              <ArrowRight className="ml-3 h-6 w-6 group-hover:translate-x-1 transition-transform" />
-            </Button>
-          </Link>
-          <Link to="/portfolio">
-            <Button 
-              variant="ghost"
-              className="text-coral hover:text-coral/80 text-lg font-medium p-0 h-auto group block"
-            >
-              Explore Portfolio
-              <ArrowRight className="ml-3 h-6 w-6 group-hover:translate-x-1 transition-transform" />
-            </Button>
-          </Link>
+          <div>
+            <Link to="/about">
+              <Button 
+                variant="ghost"
+                className="text-coral hover:text-coral/80 text-lg font-medium p-0 h-auto group"
+              >
+                About me
+                <ArrowRight className="ml-3 h-6 w-6 group-hover:translate-x-1 transition-transform" />
+              </Button>
+            </Link>
+          </div>
+          <div>
+            <Link to="/portfolio">
+              <Button 
+                variant="ghost"
+                className="text-coral hover:text-coral/80 text-lg font-medium p-0 h-auto group"
+              >
+                Explore Portfolio
+                <ArrowRight className="ml-3 h-6 w-6 group-hover:translate-x-1 transition-transform" />
+              </Button>
+            </Link>
+          </div>
         </div>
       </div>
     </div>
