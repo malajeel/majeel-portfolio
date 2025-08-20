@@ -22,11 +22,11 @@ const Contact = () => {
               <div className="text-center">
                 <h3 className="text-xl font-semibold mb-4">Get in touch</h3>
                 <p className="text-muted-foreground leading-relaxed">
-                  Whether you're looking to collaborate on a product, discuss new opportunities, or just want to connect, I'm always happy to chat
+                  Whether you're looking to collaborate on a product, discuss new opportunities, or just want to connect, I'm always happy to chat :)
                 </p>
               </div>
 
-              <div className="space-y-4">
+              <div className="space-y-4 flex flex-col items-center">
                 <div className="flex items-center space-x-4">
                   <div className="w-10 h-10 bg-coral/10 rounded-full flex items-center justify-center">
                     <Mail className="h-5 w-5 text-coral" />
