@@ -54,7 +54,7 @@ const LegoMiniCity = () => {
       <div className="max-w-4xl mx-auto">
         {/* Header */}
         <div className="mb-16">
-          <Link to="/portfolio" className="inline-flex items-center text-coral hover:text-coral/80 transition-colors mb-6">
+          <Link to="/portfolio" className="inline-flex items-center text-coral hover:text-coral/80 transition-colors mb-6 font-bold ml-4">
             <ArrowLeft className="mr-2 h-4 w-4" />
             Back to Portfolio
           </Link>
@@ -344,8 +344,8 @@ const LegoMiniCity = () => {
         </section>
 
         {/* Navigation */}
-        <div className="flex justify-center items-center pt-8 border-t border-border">
-          <Link to="/portfolio" className="inline-flex items-center text-coral hover:text-coral/80 transition-colors">
+        <div className="flex justify-start items-center pt-8 border-t border-border">
+          <Link to="/portfolio" className="inline-flex items-center text-coral hover:text-coral/80 transition-colors font-bold ml-4">
             <ArrowLeft className="mr-2 h-4 w-4" />
             Back to Portfolio
           </Link>
