@@ -4,69 +4,55 @@ import { Button } from "@/components/ui/button";
 
 const Home = () => {
   return (
-    <div className="min-h-screen flex items-center justify-center px-6 sm:px-8">
-      <div className="max-w-4xl mx-auto text-center animate-fade-in">
+    <div className="min-h-screen flex items-center justify-center px-6 sm:px-8 relative">
+      {/* Social Links - Right Side */}
+      <div className="fixed right-8 top-1/2 transform -translate-y-1/2 flex flex-col space-y-6 z-10">
+        <a
+          href="mailto:maryam.alajeel@example.com"
+          className="flex items-center text-nav-text hover:text-coral transition-colors"
+          aria-label="Email"
+        >
+          <Mail size={24} />
+        </a>
+        <a
+          href="https://linkedin.com/in/maryam-alajeel"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex items-center text-nav-text hover:text-coral transition-colors"
+          aria-label="LinkedIn"
+        >
+          <Linkedin size={24} />
+        </a>
+      </div>
+
+      {/* Main Content */}
+      <div className="max-w-4xl mx-auto animate-fade-in">
         {/* Main Headline */}
-        <div className="mb-8">
-          <h1 className="text-hero">
+        <div className="mb-12">
+          <h1 className="text-6xl md:text-8xl font-bold leading-tight tracking-tight text-left">
             Hi, I'm <span className="text-coral">Maryam</span>
           </h1>
         </div>
 
         {/* Professional Summary */}
-        <div className="mb-12 max-w-3xl mx-auto">
-          <p className="text-body-large text-muted-foreground">
-            With a Professional Product Management Certificate and a strong engineering background, 
-            I bring a unique blend of creativity and technical expertise to the table. 
-            I excel at driving product vision, agile development, and data-driven improvements.
+        <div className="mb-16 max-w-2xl">
+          <p className="text-xl md:text-2xl leading-relaxed text-muted-foreground text-left">
+            With 5 years of experience as a certified Product Manager, I bring a 
+            unique blend of engineering expertise and product vision to the table.
           </p>
         </div>
 
         {/* Call to Action */}
-        <div className="mb-16">
+        <div className="text-left">
           <Link to="/portfolio">
             <Button 
-              size="lg" 
-              className="bg-coral hover:bg-coral/90 text-coral-foreground px-8 py-6 text-lg font-medium group"
+              variant="ghost"
+              className="text-coral hover:text-coral/80 text-lg font-medium p-0 h-auto group"
             >
-              Explore my work
-              <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
+              Let's Collaborate
+              <ArrowRight className="ml-3 h-5 w-5 group-hover:translate-x-1 transition-transform" />
             </Button>
           </Link>
-        </div>
-
-        {/* Social Links */}
-        <div className="flex justify-center space-x-6">
-          <a
-            href="mailto:maryam.alajeel@example.com"
-            className="flex items-center text-nav-text hover:text-coral transition-colors"
-            aria-label="Email"
-          >
-            <Mail size={24} />
-          </a>
-          <a
-            href="https://linkedin.com/in/maryam-alajeel"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="flex items-center text-nav-text hover:text-coral transition-colors"
-            aria-label="LinkedIn"
-          >
-            <Linkedin size={24} />
-          </a>
-        </div>
-
-        {/* Company Logos Section */}
-        <div className="mt-20 pt-12 border-t border-border">
-          <p className="text-sm text-muted-foreground mb-8 uppercase tracking-wider">
-            Experience with leading organizations
-          </p>
-          <div className="flex flex-wrap justify-center items-center gap-8 opacity-60">
-            <div className="text-lg font-medium text-muted-foreground">WalterFedy</div>
-            <div className="text-lg font-medium text-muted-foreground">EyeFly</div>
-            <div className="text-lg font-medium text-muted-foreground">Arcadis IBI Group</div>
-            <div className="text-lg font-medium text-muted-foreground">TTC</div>
-            <div className="text-lg font-medium text-muted-foreground">FleetCarma</div>
-          </div>
         </div>
       </div>
     </div>
