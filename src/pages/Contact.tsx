@@ -140,7 +140,7 @@ const Contact = () => {
                 <h3 className="text-xl font-semibold mb-4">Get in touch</h3>
                 <p className="text-muted-foreground leading-relaxed">
                   Whether you're looking to collaborate on a product, discuss opportunities, 
-                  or just want to connect, I'm always open to meaningful conversations.
+                  or just want to connect, I'm always open to conversations that are punstoppable.
                 </p>
               </div>
 
@@ -152,10 +152,10 @@ const Contact = () => {
                   <div>
                     <p className="font-medium">Email</p>
                     <a 
-                      href="mailto:maryam.alajeel@example.com"
+                      href="mailto:malajeel@uwaterloo.ca"
                       className="text-muted-foreground hover:text-coral transition-colors"
                     >
-                      maryam.alajeel@example.com
+                      malajeel@uwaterloo.ca
                     </a>
                   </div>
                 </div>
@@ -178,13 +178,6 @@ const Contact = () => {
                 </div>
               </div>
 
-              <div className="pt-8 border-t border-border">
-                <h4 className="font-medium mb-3">Response Time</h4>
-                <p className="text-muted-foreground">
-                  I typically respond to messages within 24-48 hours. 
-                  For urgent inquiries, feel free to reach out via LinkedIn.
-                </p>
-              </div>
             </div>
           </div>
         </div>
