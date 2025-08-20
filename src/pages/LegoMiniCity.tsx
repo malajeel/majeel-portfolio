@@ -19,6 +19,13 @@ const LegoMiniCity = () => {
     "Skills"
   ];
 
+  const scrollToSection = (index: number) => {
+    const element = document.getElementById(`section-${index}`);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+  };
+
   useEffect(() => {
     const handleScroll = () => {
       const sectionElements = sections.map((_, index) => 
@@ -42,7 +49,7 @@ const LegoMiniCity = () => {
 
   return (
     <div className="min-h-screen py-20 px-6 sm:px-8 lg:pl-48">
-      <PortfolioProgress sections={sections} activeSection={activeSection} />
+      <PortfolioProgress sections={sections} activeSection={activeSection} onSectionClick={scrollToSection} />
       
       <div className="max-w-4xl mx-auto">
         {/* Header */}
@@ -123,9 +130,11 @@ const LegoMiniCity = () => {
                     Explore the complete user interface and experience flow
                   </p>
                 </div>
-                <Button variant="outline" className="group">
-                  <ExternalLink className="mr-2 h-4 w-4" />
-                  View Figma
+                <Button variant="outline" className="group" asChild>
+                  <a href="https://www.figma.com/proto/xiQDEpCMfLPzBmsdCPButL/LEGO-Mini-City?node-id=78-388&t=Q3RiJo1nC0ya6cuO-1" target="_blank" rel="noopener noreferrer">
+                    <ExternalLink className="mr-2 h-4 w-4" />
+                    View Figma
+                  </a>
                 </Button>
               </div>
             </div>
@@ -335,15 +344,10 @@ const LegoMiniCity = () => {
         </section>
 
         {/* Navigation */}
-        <div className="flex justify-between items-center pt-8 border-t border-border">
+        <div className="flex justify-center items-center pt-8 border-t border-border">
           <Link to="/portfolio" className="inline-flex items-center text-coral hover:text-coral/80 transition-colors">
             <ArrowLeft className="mr-2 h-4 w-4" />
             Back to Portfolio
-          </Link>
-          <Link to="/contact">
-            <Button className="bg-coral hover:bg-coral/90 text-coral-foreground">
-              Discuss This Project
-            </Button>
           </Link>
         </div>
       </div>
