@@ -49,7 +49,7 @@ const Home = () => {
             <Link to="/about">
               <Button 
                 variant="ghost"
-                className="text-coral hover:text-coral/80 text-lg font-medium p-0 h-auto group"
+                className="text-coral hover:text-coral/80 text-lg font-bold p-0 h-auto group"
               >
                 About me
                 <ArrowRight className="ml-3 h-6 w-6 group-hover:translate-x-1 transition-transform" />
@@ -60,9 +60,9 @@ const Home = () => {
             <Link to="/portfolio">
               <Button 
                 variant="ghost"
-                className="text-coral hover:text-coral/80 text-lg font-medium p-0 h-auto group"
+                className="text-coral hover:text-coral/80 text-lg font-bold p-0 h-auto group"
               >
-                Explore Portfolio
+                Explore portfolio
                 <ArrowRight className="ml-3 h-6 w-6 group-hover:translate-x-1 transition-transform" />
               </Button>
             </Link>
