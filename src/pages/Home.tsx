@@ -8,7 +8,7 @@ const Home = () => {
       {/* Social Links - Right Side */}
       <div className="fixed right-8 top-1/2 transform -translate-y-1/2 flex flex-col space-y-6 z-10">
         <a
-          href="mailto:maryam.alajeel@example.com"
+          href="mailto:malajeel@uwaterloo.ca"
           className="flex items-center text-nav-text hover:text-coral transition-colors"
           aria-label="Email"
         >
@@ -44,14 +44,23 @@ const Home = () => {
         </div>
 
         {/* Call to Action */}
-        <div className="text-left">
+        <div className="text-left space-y-4">
+          <Link to="/about">
+            <Button 
+              variant="ghost"
+              className="text-coral hover:text-coral/80 text-lg font-medium p-0 h-auto group block"
+            >
+              About me
+              <ArrowRight className="ml-3 h-6 w-6 group-hover:translate-x-1 transition-transform" />
+            </Button>
+          </Link>
           <Link to="/portfolio">
             <Button 
               variant="ghost"
-              className="text-coral hover:text-coral/80 text-lg font-medium p-0 h-auto group"
+              className="text-coral hover:text-coral/80 text-lg font-medium p-0 h-auto group block"
             >
-              Let's Collaborate
-              <ArrowRight className="ml-3 h-5 w-5 group-hover:translate-x-1 transition-transform" />
+              Explore Portfolio
+              <ArrowRight className="ml-3 h-6 w-6 group-hover:translate-x-1 transition-transform" />
             </Button>
           </Link>
         </div>
