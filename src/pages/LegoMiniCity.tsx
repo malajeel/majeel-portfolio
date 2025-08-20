@@ -116,17 +116,18 @@ const LegoMiniCity = () => {
             </p>
             
             <div className="bg-card border border-border rounded-lg p-6 mb-6">
-              <div className="flex items-center justify-between">
-                <div>
-                  <h3 className="font-semibold mb-2">Interactive Figma Prototype</h3>
-                  <p className="text-muted-foreground text-sm">
-                    Explore the complete user interface and experience flow
-                  </p>
-                </div>
-                <Button variant="outline" className="group">
-                  <ExternalLink className="mr-2 h-4 w-4" />
-                  View Figma
-                </Button>
+              <h3 className="font-semibold mb-4">Interactive Figma Prototype</h3>
+              <p className="text-muted-foreground text-sm mb-4">
+                Explore the complete user interface and experience flow
+              </p>
+              <div className="w-full h-96 border border-border rounded-lg overflow-hidden">
+                <iframe 
+                  src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FxiQDEpCMfLPzBmsdCPButL%2FLEGO-Mini-City%3Fnode-id%3D78-1210%26p%3Df%26t%3DKSDcfCbvYpufRtk3-1%26scaling%3Dscale-down%26content-scaling%3Dfixed%26page-id%3D78%253A388%26starting-point-node-id%3D78%253A1210"
+                  width="100%" 
+                  height="100%" 
+                  allowFullScreen
+                  className="border-0"
+                />
               </div>
             </div>
           </div>
