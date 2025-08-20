@@ -11,8 +11,7 @@ const Portfolio = () => {
           <h1 className="text-section-title mb-6">Portfolio</h1>
           <div className="w-16 h-1 bg-coral mx-auto mb-6"></div>
           <p className="text-body-large text-muted-foreground max-w-2xl mx-auto">
-            Explore my featured projects showcasing product management expertise, 
-            from physical product design to digital solutions.
+            Projects that highlight my approach to product design and management, from concept to launch.
           </p>
         </div>
 
