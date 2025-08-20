@@ -29,12 +29,7 @@ const About = () => {
         {/* Bio Section */}
         <div className="mb-16 animate-slide-up">
           <p className="text-body-large text-muted-foreground leading-relaxed">
-            I'm Maryam Al-Ajeel, a certified Product Manager with a strong engineering background 
-            and a passion for building impactful, user-centered products. With a Professional Product 
-            Management Certificate and hands-on experience leading product lifecycles in technical 
-            environments, I excel at driving product vision, agile development, and data-driven improvements. 
-            Skilled in stakeholder collaboration, user research, and roadmap execution, I'm dedicated to 
-            delivering innovative solutions that balance business goals with exceptional user experiences.
+            I'm Maryam Al-Ajeel, a product manager with a strong engineering background and a passion for building impactful, user-centered products. With a Professional Product Management Certificate and hands-on experience leading product lifecycles in technical environments, I excel at driving product vision, agile development, and data-driven improvements. Skilled in stakeholder collaboration, user research, and roadmap execution, I'm dedicated to delivering innovative solutions that balance business goals with exceptional user experiences.
           </p>
         </div>
 
@@ -50,10 +45,11 @@ const About = () => {
               <p className="text-muted-foreground">University of Toronto School of Continuing Studies</p>
               <p className="text-sm text-muted-foreground">Aug 2025</p>
             </div>
-            <div className="border-l-2 border-progress-line pl-4">
+            <div className="border-l-2 border-coral pl-4">
               <h3 className="font-semibold text-lg">Bachelor of Applied Science, Electrical Engineering</h3>
               <p className="text-muted-foreground">University of Waterloo</p>
-              <p className="text-sm text-muted-foreground">2022 (Graduated with Distinction)</p>
+              <p className="text-sm text-muted-foreground">Apr 2022 (Graduated with distinction)</p>
+              <p className="text-sm text-muted-foreground">Activities: UW Alternative Fuels Team Core Member, Women in Engineering Member, Engineering Ambassador, ECE Society Social VP, First-Year ECE Students Mentor, ECE Peer Wellness Volunteer.</p>
             </div>
           </div>
         </div>
