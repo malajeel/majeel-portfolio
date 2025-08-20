@@ -15,7 +15,8 @@ const LegoMiniCity = () => {
     "Target Audience",
     "Value Proposition",
     "Market Opportunity",
-    "GTM Strategy"
+    "GTM Strategy",
+    "Skills"
   ];
 
   useEffect(() => {
@@ -288,6 +289,47 @@ const LegoMiniCity = () => {
                 <li>• Product line extensions and advanced sets</li>
                 <li>• Community-driven content and challenges</li>
               </ul>
+            </div>
+          </div>
+        </section>
+
+        {/* Skills */}
+        <section id="section-8" className="mb-16 scroll-mt-24">
+          <h2 className="text-2xl font-semibold mb-6">Skills</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div className="bg-card border border-border rounded-lg p-6">
+              <h3 className="font-semibold mb-3">Product Management</h3>
+              <div className="flex flex-wrap gap-2">
+                <span className="px-3 py-1 bg-secondary text-secondary-foreground rounded-full text-xs">
+                  Product Strategy
+                </span>
+                <span className="px-3 py-1 bg-secondary text-secondary-foreground rounded-full text-xs">
+                  Market Research
+                </span>
+                <span className="px-3 py-1 bg-secondary text-secondary-foreground rounded-full text-xs">
+                  GTM Strategy
+                </span>
+                <span className="px-3 py-1 bg-secondary text-secondary-foreground rounded-full text-xs">
+                  Stakeholder Management
+                </span>
+              </div>
+            </div>
+            <div className="bg-card border border-border rounded-lg p-6">
+              <h3 className="font-semibold mb-3">Design & Development</h3>
+              <div className="flex flex-wrap gap-2">
+                <span className="px-3 py-1 bg-secondary text-secondary-foreground rounded-full text-xs">
+                  UX Design
+                </span>
+                <span className="px-3 py-1 bg-secondary text-secondary-foreground rounded-full text-xs">
+                  Prototyping
+                </span>
+                <span className="px-3 py-1 bg-secondary text-secondary-foreground rounded-full text-xs">
+                  User Research
+                </span>
+                <span className="px-3 py-1 bg-secondary text-secondary-foreground rounded-full text-xs">
+                  Agile Development
+                </span>
+              </div>
             </div>
           </div>
         </section>

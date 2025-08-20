@@ -30,20 +30,6 @@ const Portfolio = () => {
                     and digital companion app. This project demonstrates end-to-end product strategy, 
                     market research, and go-to-market planning.
                   </p>
-                  <div className="flex flex-wrap gap-2 mb-4">
-                    <span className="px-3 py-1 bg-secondary text-secondary-foreground rounded-full text-xs">
-                      Product Strategy
-                    </span>
-                    <span className="px-3 py-1 bg-secondary text-secondary-foreground rounded-full text-xs">
-                      Market Research
-                    </span>
-                    <span className="px-3 py-1 bg-secondary text-secondary-foreground rounded-full text-xs">
-                      UX Design
-                    </span>
-                    <span className="px-3 py-1 bg-secondary text-secondary-foreground rounded-full text-xs">
-                      GTM Strategy
-                    </span>
-                  </div>
                 </div>
                 <div className="md:ml-8">
                   <Link to="/portfolio/lego-mini-city">
@@ -71,20 +57,6 @@ const Portfolio = () => {
                     of locating distressed individuals by utilizing mounted cameras and sensors for autonomous 
                     navigation and scanning of large or hazardous areas.
                   </p>
-                  <div className="flex flex-wrap gap-2 mb-4">
-                    <span className="px-3 py-1 bg-secondary text-secondary-foreground rounded-full text-xs">
-                      Drone Technology
-                    </span>
-                    <span className="px-3 py-1 bg-secondary text-secondary-foreground rounded-full text-xs">
-                      Safety Solutions
-                    </span>
-                    <span className="px-3 py-1 bg-secondary text-secondary-foreground rounded-full text-xs">
-                      Search & Rescue
-                    </span>
-                    <span className="px-3 py-1 bg-secondary text-secondary-foreground rounded-full text-xs">
-                      Real-time Data
-                    </span>
-                  </div>
                   <div className="flex items-center text-muted-foreground">
                     <ExternalLink className="mr-2 h-4 w-4" />
                     <span className="text-sm">Live video footage and location data for SAR dispatchers</span>
