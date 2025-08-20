@@ -27,11 +27,11 @@ const Contact = () => {
               </div>
 
               <div className="space-y-4 flex flex-col items-center">
-                <div className="flex items-center space-x-4">
-                  <div className="w-10 h-10 bg-coral/10 rounded-full flex items-center justify-center">
+                <div className="flex items-start space-x-4 w-full max-w-xs">
+                  <div className="w-10 h-10 bg-coral/10 rounded-full flex items-center justify-center flex-shrink-0">
                     <Mail className="h-5 w-5 text-coral" />
                   </div>
-                  <div>
+                  <div className="min-w-0">
                     <p className="font-medium">Email</p>
                     <a 
                       href="mailto:malajeel@uwaterloo.ca"
@@ -42,11 +42,11 @@ const Contact = () => {
                   </div>
                 </div>
 
-                <div className="flex items-center space-x-4">
-                  <div className="w-10 h-10 bg-coral/10 rounded-full flex items-center justify-center">
+                <div className="flex items-start space-x-4 w-full max-w-xs">
+                  <div className="w-10 h-10 bg-coral/10 rounded-full flex items-center justify-center flex-shrink-0">
                     <Linkedin className="h-5 w-5 text-coral" />
                   </div>
-                  <div>
+                  <div className="min-w-0">
                     <p className="font-medium">LinkedIn</p>
                     <a 
                       href="https://linkedin.com/in/maryam-alajeel"
