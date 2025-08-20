@@ -36,7 +36,7 @@ const Home = () => {
 
         {/* Professional Summary */}
         <div className="mb-16 max-w-2xl">
-          <p className="text-xl md:text-2xl leading-relaxed text-muted-foreground text-left">
+          <p className="text-lg md:text-xl leading-relaxed text-muted-foreground text-left">
             With a Professional Product Management Certificate and a strong engineering background, 
             I bring a unique blend of creativity and technical expertise to the table. 
             I excel at driving product vision, agile development, and data-driven improvements.
