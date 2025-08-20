@@ -37,8 +37,9 @@ const Home = () => {
         {/* Professional Summary */}
         <div className="mb-16 max-w-2xl">
           <p className="text-xl md:text-2xl leading-relaxed text-muted-foreground text-left">
-            With 5 years of experience as a certified Product Manager, I bring a 
-            unique blend of engineering expertise and product vision to the table.
+            With a Professional Product Management Certificate and a strong engineering background, 
+            I bring a unique blend of creativity and technical expertise to the table. 
+            I excel at driving product vision, agile development, and data-driven improvements.
           </p>
         </div>
 
