@@ -19,7 +19,7 @@ const Contact = () => {
         <div className="flex justify-center">
           <div className="max-w-md animate-slide-up">
             <div className="space-y-8">
-              <div>
+              <div className="text-center">
                 <h3 className="text-xl font-semibold mb-4">Get in touch</h3>
                 <p className="text-muted-foreground leading-relaxed">
                   Whether you're looking to collaborate on a product, discuss new opportunities, or just want to connect, I'm always happy to chat
