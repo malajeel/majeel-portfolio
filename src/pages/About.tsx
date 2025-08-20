@@ -44,6 +44,14 @@ const About = () => {
               <h3 className="font-semibold text-lg">Professional Product Management Certificate</h3>
               <p className="text-muted-foreground">University of Toronto School of Continuing Studies</p>
               <p className="text-sm text-muted-foreground">Aug 2025</p>
+              <a 
+                href="https://www.credly.com/badges/425ac327-f14b-4602-b117-aa4b11e5c758"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-sm text-coral hover:text-coral/80 transition-colors"
+              >
+                View Credential
+              </a>
             </div>
             <div className="border-l-2 border-coral pl-4">
               <h3 className="font-semibold text-lg">Bachelor of Applied Science, Electrical Engineering</h3>
