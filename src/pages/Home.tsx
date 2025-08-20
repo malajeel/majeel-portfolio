@@ -30,7 +30,7 @@ const Home = () => {
         {/* Main Headline */}
         <div className="mb-12">
           <h1 className="text-6xl md:text-8xl font-bold leading-tight tracking-tight text-left">
-            Hi, I'm <span className="text-coral">Maryam</span>
+            Hi, I'm <span className="text-coral">Maryam :)</span>
           </h1>
         </div>
 
