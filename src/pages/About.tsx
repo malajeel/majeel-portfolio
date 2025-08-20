@@ -48,7 +48,7 @@ const About = () => {
             <div className="border-l-2 border-coral pl-4">
               <h3 className="font-semibold text-lg">Bachelor of Applied Science, Electrical Engineering</h3>
               <p className="text-muted-foreground">University of Waterloo</p>
-              <p className="text-sm text-muted-foreground">Apr 2022 (Graduated with distinction)</p>
+              <p className="text-sm text-muted-foreground">Apr 2022 (Graduated with Distinction)</p>
               <p className="text-sm text-muted-foreground">Activities: UW Alternative Fuels Team Core Member, Women in Engineering Member, Engineering Ambassador, ECE Society Social VP, First-Year ECE Students Mentor, ECE Peer Wellness Volunteer.</p>
             </div>
           </div>
