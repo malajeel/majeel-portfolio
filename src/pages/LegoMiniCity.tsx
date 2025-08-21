@@ -224,35 +224,44 @@ const LegoMiniCity = () => {
         <section id="section-5" className="mb-16 scroll-mt-24">
           <h2 className="text-2xl font-semibold mb-6">Value Proposition</h2>
           <div className="bg-coral/5 border border-coral/20 rounded-lg p-6 mb-6">
-            <h3 className="font-semibold text-coral mb-3">Core Value Statement</h3>
+            <h3 className="font-semibold text-coral mb-3">Unique Selling Proposition Statement</h3>
             <p className="text-foreground leading-relaxed">
-              "Lego Mini City transforms traditional building play into an immersive, educational journey 
-              that adapts to each child's learning pace while fostering creativity, problem-solving, 
-              and digital literacy in one integrated experience."
+              "LEGO Mini City: Relive Your Adventures, Brick by Brick."
             </p>
           </div>
           
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <p className="text-muted-foreground leading-relaxed mb-6">
+            LEGO Mini City is a unique product that transforms a simple souvenir into a meaningful, hands-on, and collectible experience. It is the only LEGO series offering exclusive city-themed sets that are available only in the regions they represent.
+          </p>
+          
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div className="text-center">
               <div className="w-12 h-12 bg-coral/10 rounded-full flex items-center justify-center mx-auto mb-3">
                 <span className="text-coral font-bold">1</span>
               </div>
-              <h4 className="font-semibold mb-2">Educational Excellence</h4>
-              <p className="text-muted-foreground text-sm">STEM-focused learning through hands-on building and digital interaction</p>
+              <h4 className="font-semibold mb-2">Addresses Pain Points</h4>
+              <p className="text-muted-foreground text-sm">It directly addresses the customer pain points of generic, low-quality, and overpriced souvenirs by offering a premium, high-quality alternative that provides significantly enhanced value.</p>
             </div>
             <div className="text-center">
               <div className="w-12 h-12 bg-coral/10 rounded-full flex items-center justify-center mx-auto mb-3">
                 <span className="text-coral font-bold">2</span>
               </div>
-              <h4 className="font-semibold mb-2">Growing Engagement</h4>
-              <p className="text-muted-foreground text-sm">Adaptive difficulty and content that evolves with user skill development</p>
+              <h4 className="font-semibold mb-2">Creates Tangible & Emotional Value</h4>
+              <p className="text-muted-foreground text-sm">The act of building the set, combined with the geo-exclusive availability, creates a deeper emotional connection and a stronger memory of a trip.</p>
             </div>
             <div className="text-center">
               <div className="w-12 h-12 bg-coral/10 rounded-full flex items-center justify-center mx-auto mb-3">
                 <span className="text-coral font-bold">3</span>
               </div>
-              <h4 className="font-semibold mb-2">Community Connection</h4>
-              <p className="text-muted-foreground text-sm">Social features that encourage sharing, collaboration, and friendly competition</p>
+              <h4 className="font-semibold mb-2">Offers Portability</h4>
+              <p className="text-muted-foreground text-sm">The compact size and inherent durability of LEGO solve the common issue of fragile souvenirs that are difficult to transport.</p>
+            </div>
+            <div className="text-center">
+              <div className="w-12 h-12 bg-coral/10 rounded-full flex items-center justify-center mx-auto mb-3">
+                <span className="text-coral font-bold">4</span>
+              </div>
+              <h4 className="font-semibold mb-2">Gamifies the Experience</h4>
+              <p className="text-muted-foreground text-sm">The companion app turns collecting into a rewarding quest, complete with badges, a digital display shelf, and a leaderboard that drives continuous engagement and repeat purchases.</p>
             </div>
           </div>
         </section>
