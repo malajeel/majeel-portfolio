@@ -59,7 +59,7 @@ const LegoMiniCity = () => {
             <ArrowLeft className="mr-2 h-4 w-4" />
             Back to Portfolio
           </Link>
-          <h1 className="text-section-title mb-6">Lego Mini City</h1>
+          <h1 className="text-section-title mb-6">LEGO Mini City</h1>
           <div className="w-16 h-1 bg-coral mb-6"></div>
         </div>
 
@@ -67,16 +67,11 @@ const LegoMiniCity = () => {
         <section id="section-0" className="mb-16 scroll-mt-24">
           <h2 className="text-2xl font-semibold mb-6">Project Summary</h2>
           <div className="prose prose-lg max-w-none">
-            <p className="text-muted-foreground leading-relaxed mb-4">
-              Lego Mini City represents a comprehensive product development initiative that combines 
-              physical product design with digital innovation. This project showcases end-to-end 
-              product management capabilities, from initial market research and user needs identification 
-              to go-to-market strategy execution.
-            </p>
             <p className="text-muted-foreground leading-relaxed">
-              The project demonstrates expertise in product strategy, user experience design, 
-              stakeholder management, and strategic business planning while addressing real market 
-              opportunities in the educational toy and gaming sector.
+              The LEGO Mini City is a new line of collectible, location-specific LEGO builds that redefine the souvenir market. Addressing the industry gap of generic, low-quality, and overpriced mementos, this product combines the premium quality of the LEGO brand with a compelling, interactive experience. The solution is a series of compact, high-quality sets representing global cities, augmented by a gamified digital companion app.
+            </p>
+            <p className="text-muted-foreground leading-relaxed mt-4">
+              The product's core value lies in its geo-exclusive availability, which transforms a simple purchase into a meaningful, hands-on, and collectible journey. This project aims to increase LEGO's market share in the global souvenir industry, deepen emotional connections with a new segment of fans, and foster a vibrant community of "LEGO Travellers."
             </p>
           </div>
         </section>
