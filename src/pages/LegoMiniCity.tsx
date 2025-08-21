@@ -120,7 +120,7 @@ const LegoMiniCity = () => {
           <h2 className="text-2xl font-semibold mb-6">Physical Product</h2>
           <div className="mb-6">
             <p className="text-muted-foreground leading-relaxed mb-6">
-              The physical component of LEGO Mini City was designed by myself to strike a balance between detail and simplicity, making the sets appealing to both LEGO enthusiasts and casual tourists.
+              Designed by myself to balance detail and simplicity, LEGO Mini City sets appeal to both LEGO enthusiasts and casual tourists, and are available exclusively at the LEGO store in their respective cities, offering a unique, location-specific collectible.
             </p>
           </div>
           
@@ -160,11 +160,12 @@ const LegoMiniCity = () => {
           <div className="bg-card border border-border rounded-lg p-6">
             <h3 className="font-semibold mb-3">Key Features</h3>
             <ul className="space-y-2 text-muted-foreground">
-              <li>• Modular design for endless customization possibilities</li>
-              <li>• Sustainable materials and eco-friendly packaging</li>
-              <li>• Age-appropriate safety standards and testing</li>
-              <li>• Cross-compatibility with existing Lego collections</li>
-              <li>• Educational value focusing on STEM concepts</li>
+              <li>• <strong>Compact Design:</strong> Bite-sized builds that are easy to carry and perfect for travel.</li>
+              <li>• <strong>High-Quality Construction:</strong> Durable LEGO pieces that provide a premium building experience.</li>
+              <li>• <strong>City-Specific Detail:</strong> Intricately represents landmarks and cultural icons of specific cities.</li>
+              <li>• <strong>Portable Keepsakes:</strong> Small and lightweight, ideal for collecting multiple souvenirs.</li>
+              <li>• <strong>Affordable Price Point:</strong> Priced at $15-$20 CAD, offering excellent value compared to generic souvenirs.</li>
+              <li>• <strong>Unique and Memorable:</strong> Offers a meaningful alternative to typical mass-produced souvenirs.</li>
             </ul>
           </div>
         </section>
