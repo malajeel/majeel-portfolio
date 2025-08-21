@@ -303,32 +303,19 @@ const LegoMiniCity = () => {
           <h2 className="text-2xl font-semibold mb-6">Go-to-Market Strategy</h2>
           <div className="space-y-6">
             <div className="bg-card border border-border rounded-lg p-6">
-              <h3 className="font-semibold mb-3">Phase 1: Market Validation (Months 1-3)</h3>
+              <h3 className="font-semibold mb-3">Phase 1: Pre-Launch (Months 1-6)</h3>
               <ul className="space-y-2 text-muted-foreground">
-                <li>• Beta testing with target families and educational institutions</li>
-                <li>• Partnerships with toy specialty retailers</li>
-                <li>• Social media campaigns targeting parent communities</li>
-                <li>• Educational conference demonstrations</li>
+                <li>• Finalize physical and app designs, develop core app features.</li>
+                <li>• Teaser campaigns (social media, "Coming Soon" page).</li>
+                <li>• Influencer & media partnerships.</li>
+                <li>• Early reveal for LEGO Insiders.</li>
               </ul>
             </div>
             
             <div className="bg-card border border-border rounded-lg p-6">
-              <h3 className="font-semibold mb-3">Phase 2: Scaled Launch (Months 4-8)</h3>
+              <h3 className="font-semibold mb-3">Phase 2: Launch (Week 1-8)</h3>
               <ul className="space-y-2 text-muted-foreground">
-                <li>• Major retail partnerships (Target, Amazon, specialty stores)</li>
-                <li>• Influencer collaborations with family and education content creators</li>
-                <li>• Trade show presence at toy and education industry events</li>
-                <li>• Content marketing focusing on educational benefits</li>
-              </ul>
-            </div>
-            
-            <div className="bg-card border border-border rounded-lg p-6">
-              <h3 className="font-semibold mb-3">Phase 3: Growth & Expansion (Months 9-12)</h3>
-              <ul className="space-y-2 text-muted-foreground">
-                <li>• International market expansion</li>
-                <li>• Educational curriculum partnerships</li>
-                <li>• Product line extensions and advanced sets</li>
-                <li>• Community-driven content and challenges</li>
+                <li>• [Phase 2 details to be added]</li>
               </ul>
             </div>
           </div>
