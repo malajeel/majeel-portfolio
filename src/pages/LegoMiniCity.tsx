@@ -309,7 +309,7 @@ const LegoMiniCity = () => {
               <h3 className="font-semibold mb-3">Phase 1: Pre-Launch (Months 1-6)</h3>
               <ul className="space-y-2 text-muted-foreground">
                 <li>• Finalize physical and app designs, develop core app features.</li>
-                <li>• Teaser campaigns (social media, "Coming Soon" page).</li>
+                <li>• Teaser campaigns with targeted messaging (social media, billboards, emails, "Coming Soon" page on the LEGO site).</li>
                 <li>• Influencer & media partnerships.</li>
                 <li>• Early reveal for LEGO Insiders.</li>
               </ul>
