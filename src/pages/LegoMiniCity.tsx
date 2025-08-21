@@ -200,45 +200,22 @@ const LegoMiniCity = () => {
             </p>
             
             <div className="space-y-4 mb-6">
-              <div className="bg-card border border-border rounded-lg p-4">
-                <h4 className="font-semibold mb-2">Profile Tab</h4>
-                <p className="text-muted-foreground text-sm">A personalized "Traveller LEGO Profile" where users can view and display their overall collection progress and earned digital badges.</p>
+              <div>
+                <h4 className="font-semibold mb-2">Profile Tab:</h4>
+                <p className="text-muted-foreground">A personalized "Traveller LEGO Profile" where users can view and display their overall collection progress and earned digital badges.</p>
               </div>
-              <div className="bg-card border border-border rounded-lg p-4">
-                <h4 className="font-semibold mb-2">Shelf Tab</h4>
-                <p className="text-muted-foreground text-sm">A virtual display case that allows collectors to digitally arrange their owned Mini City sets, mirroring their physical collection.</p>
+              <div>
+                <h4 className="font-semibold mb-2">Shelf Tab:</h4>
+                <p className="text-muted-foreground">A virtual display case that allows collectors to digitally arrange their owned Mini City sets, mirroring their physical collection.</p>
               </div>
-              <div className="bg-card border border-border rounded-lg p-4">
-                <h4 className="font-semibold mb-2">Map Tab</h4>
-                <p className="text-muted-foreground text-sm">An interactive map that highlights LEGO stores in cities where Mini City sets are available. It also displays community acquisition data, such as how many users have collected a Mini City set from a particular LEGO store, fostering a sense of shared experience.</p>
+              <div>
+                <h4 className="font-semibold mb-2">Map Tab:</h4>
+                <p className="text-muted-foreground">An interactive map that highlights LEGO stores in cities where Mini City sets are available. It also displays community acquisition data, such as how many users have collected a Mini City set from a particular LEGO store, fostering a sense of shared experience.</p>
               </div>
-              <div className="bg-card border border-border rounded-lg p-4">
-                <h4 className="font-semibold mb-2">Leaderboard Tab</h4>
-                <p className="text-muted-foreground text-sm">A competitive (we only do friendly competitions) feature that ranks top collectors based on the size of their collection, incentivizing repeat purchases and continued engagement.</p>
+              <div>
+                <h4 className="font-semibold mb-2">Leaderboard Tab:</h4>
+                <p className="text-muted-foreground">A competitive (we only do friendly competitions) feature that ranks top collectors based on the size of their collection, incentivizing repeat purchases and continued engagement.</p>
               </div>
-            </div>
-          </div>
-          
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <div className="bg-card border border-border rounded-lg p-6">
-              <h3 className="font-semibold mb-3">App Features</h3>
-              <ul className="space-y-2 text-muted-foreground">
-                <li>• Step-by-step building instructions</li>
-                <li>• AR visualization for complex builds</li>
-                <li>• Progress tracking and achievements</li>
-                <li>• Community sharing and challenges</li>
-                <li>• Parent dashboard and controls</li>
-              </ul>
-            </div>
-            <div className="bg-card border border-border rounded-lg p-6">
-              <h3 className="font-semibold mb-3">Technical Stack</h3>
-              <ul className="space-y-2 text-muted-foreground">
-                <li>• React Native for cross-platform compatibility</li>
-                <li>• ARKit/ARCore for augmented reality</li>
-                <li>• Firebase for real-time data sync</li>
-                <li>• Machine learning for build recognition</li>
-                <li>• Cloud storage for user-generated content</li>
-              </ul>
             </div>
           </div>
         </section>
