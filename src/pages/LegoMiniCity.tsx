@@ -289,10 +289,10 @@ const LegoMiniCity = () => {
             <div className="bg-card border border-border rounded-lg p-6">
               <h3 className="font-semibold mb-3">Strategic Impact</h3>
               <ul className="space-y-2 text-muted-foreground">
-                <li>• Enhanced brand loyalty through digital engagement</li>
-                <li>• Subscription revenue from app features</li>
-                <li>• Data insights for product development</li>
-                <li>• Educational partnerships and licensing</li>
+                <li>• Diversifying portfolio into experiential collectibles.</li>
+                <li>• Addressing rising consumer demand for meaningful travel mementos.</li>
+                <li>• Leveraging brand strength to deliver premium, collectible experiences.</li>
+                <li>• Strengthening brand loyalty through an integrated digital platform.</li>
               </ul>
             </div>
           </div>
