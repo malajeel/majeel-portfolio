@@ -342,23 +342,9 @@ const LegoMiniCity = () => {
         <section id="section-8" className="mb-16 scroll-mt-24">
           <h2 className="text-2xl font-semibold mb-6">User Research & Insights</h2>
           <div className="space-y-6">
-            <div className="bg-card border border-border rounded-lg p-6">
-              <h3 className="font-semibold mb-3">Research Methodology</h3>
-              <p className="text-muted-foreground leading-relaxed mb-4">
-                To validate the product concept, a user research study was conducted via a survey across diverse demographics. The key findings directly informed subsequent product decisions.
-              </p>
-              <p className="text-muted-foreground leading-relaxed mb-4">
-                Comprehensive user research was conducted through surveys with 200+ parents, 
-                focus groups with children aged 6-14, and observational studies in educational settings. 
-                This research informed product design decisions and validated market assumptions.
-              </p>
-              <ul className="space-y-2 text-muted-foreground">
-                <li>• Parent interviews (n=50) to understand purchasing motivations</li>
-                <li>• Child play sessions to observe engagement patterns</li>
-                <li>• Educator surveys on classroom integration preferences</li>
-                <li>• Competitive analysis of existing digital-physical toy products</li>
-              </ul>
-            </div>
+            <p className="text-muted-foreground leading-relaxed mb-6">
+              To validate the product concept, a user research study was conducted via a survey across diverse demographics. The key findings directly informed subsequent product decisions.
+            </p>
             
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div className="bg-card border border-border rounded-lg p-6">
