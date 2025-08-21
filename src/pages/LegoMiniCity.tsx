@@ -99,17 +99,17 @@ const LegoMiniCity = () => {
             <div className="bg-card border border-border rounded-lg p-6">
               <h3 className="font-semibold mb-3">Primary Users</h3>
               <ul className="space-y-3 text-muted-foreground">
-                <li><strong>Children (6-14 years):</strong> Creative builders seeking engaging, educational play experiences</li>
-                <li><strong>Parents:</strong> Value educational toys that promote STEM learning and creativity</li>
-                <li><strong>Educators:</strong> Teachers looking for hands-on learning tools for classroom use</li>
+                <li><strong>Millennial & Gen-Z Travelers:</strong> Seeking creative, city-themed keepsakes with digital bragging rights</li>
+                <li><strong>LEGO Enthusiasts & Collectors:</strong> Looking to expand LEGO collection, valuing exclusivity and a good design</li>
+                <li><strong>Families with Kids:</strong> Seeking meaningful souvenirs that connect LEGO play to real-world travel memories</li>
               </ul>
             </div>
             <div className="bg-card border border-border rounded-lg p-6">
               <h3 className="font-semibold mb-3">Secondary Users</h3>
               <ul className="space-y-3 text-muted-foreground">
-                <li><strong>Adult Builders:</strong> Hobbyists and collectors interested in complex building challenges</li>
-                <li><strong>Institutions:</strong> Libraries, museums, and learning centers</li>
-                <li><strong>Gift Purchasers:</strong> Extended family and friends seeking meaningful presents</li>
+                <li><strong>Locals:</strong> Expanding personal collections through a hobby that offers a sense of accomplishment and community</li>
+                <li><strong>Gift Givers:</strong> Finding thoughtful gifts that are portable and durable</li>
+                <li><strong>Education Programs:</strong> Hands-on learning that stimulates creativity and imagination</li>
               </ul>
             </div>
           </div>
