@@ -345,6 +345,9 @@ const LegoMiniCity = () => {
             <div className="bg-card border border-border rounded-lg p-6">
               <h3 className="font-semibold mb-3">Research Methodology</h3>
               <p className="text-muted-foreground leading-relaxed mb-4">
+                To validate the product concept, a user research study was conducted via a survey across diverse demographics. The key findings directly informed subsequent product decisions.
+              </p>
+              <p className="text-muted-foreground leading-relaxed mb-4">
                 Comprehensive user research was conducted through surveys with 200+ parents, 
                 focus groups with children aged 6-14, and observational studies in educational settings. 
                 This research informed product design decisions and validated market assumptions.
