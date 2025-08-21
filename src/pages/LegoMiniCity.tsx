@@ -281,7 +281,7 @@ const LegoMiniCity = () => {
             <div className="bg-card border border-border rounded-lg p-6">
               <h3 className="font-semibold mb-3">Market Size</h3>
               <ul className="space-y-2 text-muted-foreground">
-                <li>• Global Souvenir Market: Estimated $131.88 Billion USD annually.</li>
+                <li>• Global Souvenir Market: ~$131.88 Billion USD annually.</li>
                 <li>• Serviceable Available Market (LEGO fans): ~$6.59 billion USD.</li>
                 <li>• Serviceable Obtainable Market (In pilot cities): ~$1.23 billion USD.</li>
               </ul>
