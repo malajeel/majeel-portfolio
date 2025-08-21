@@ -120,9 +120,7 @@ const LegoMiniCity = () => {
           <h2 className="text-2xl font-semibold mb-6">Physical Product</h2>
           <div className="mb-6">
             <p className="text-muted-foreground leading-relaxed mb-6">
-              The physical component of Lego Mini City focuses on creating modular, educational 
-              building experiences that promote creativity, problem-solving, and spatial awareness. 
-              The design emphasizes sustainability, safety, and compatibility with existing Lego systems.
+              The physical component of LEGO Mini City was designed by myself to strike a balance between detail and simplicity, making the sets appealing to both LEGO enthusiasts and casual tourists.
             </p>
           </div>
           
