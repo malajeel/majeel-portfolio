@@ -126,36 +126,36 @@ const LegoMiniCity = () => {
             </p>
           </div>
           
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mb-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
             <img 
               src="/lovable-uploads/a76770f3-e4b0-46b2-8c61-d153be028eba.png" 
               alt="LEGO Mini Toronto - Features CN Tower, streetcar, and downtown buildings" 
-              className="aspect-square object-cover rounded-lg border"
+              className="w-full h-auto rounded-lg border"
             />
             <img 
               src="/lovable-uploads/a3ae69c4-c028-47da-8d81-d5097aa29a4e.png" 
               alt="LEGO Mini Tokyo - Features Tokyo Tower, cherry blossom tree, and traditional buildings" 
-              className="aspect-square object-cover rounded-lg border"
+              className="w-full h-auto rounded-lg border"
             />
             <img 
               src="/lovable-uploads/4eda6c5b-2de9-4ded-a50c-8fa1241a9ba6.png" 
               alt="LEGO Mini Rome - Features Colosseum, Trevi Fountain, and chef minifigure" 
-              className="aspect-square object-cover rounded-lg border"
+              className="w-full h-auto rounded-lg border"
             />
             <img 
               src="/lovable-uploads/2682f92a-2060-4b9e-aaad-7b83c9046234.png" 
               alt="LEGO Mini Dubai - Features Burj Khalifa, modern skyline, and palm trees" 
-              className="aspect-square object-cover rounded-lg border"
+              className="w-full h-auto rounded-lg border"
             />
             <img 
               src="/lovable-uploads/5ea4a930-d271-4d67-a12f-505959f312e3.png" 
               alt="LEGO Mini Bangkok - Features golden temples, tuk-tuk, and traditional architecture" 
-              className="aspect-square object-cover rounded-lg border"
+              className="w-full h-auto rounded-lg border"
             />
             <img 
               src="/lovable-uploads/db2f8f91-b6b7-440f-bbdf-1e819934aaa8.png" 
               alt="LEGO Mini London - Features London Eye, Big Ben, red double-decker bus, and royal guard" 
-              className="aspect-square object-cover rounded-lg border"
+              className="w-full h-auto rounded-lg border"
             />
           </div>
           
