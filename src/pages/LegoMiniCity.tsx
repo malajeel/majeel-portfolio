@@ -397,7 +397,16 @@ const LegoMiniCity = () => {
                   GTM Strategy
                 </span>
                 <span className="px-3 py-1 bg-secondary text-secondary-foreground rounded-full text-xs">
-                  Stakeholder Management
+                  PRD
+                </span>
+                <span className="px-3 py-1 bg-secondary text-secondary-foreground rounded-full text-xs">
+                  Strategic Planning
+                </span>
+                <span className="px-3 py-1 bg-secondary text-secondary-foreground rounded-full text-xs">
+                  User Research
+                </span>
+                <span className="px-3 py-1 bg-secondary text-secondary-foreground rounded-full text-xs">
+                  Data-Informed Decision Making
                 </span>
               </div>
             </div>
@@ -415,6 +424,15 @@ const LegoMiniCity = () => {
                 </span>
                 <span className="px-3 py-1 bg-secondary text-secondary-foreground rounded-full text-xs">
                   Agile Development
+                </span>
+                <span className="px-3 py-1 bg-secondary text-secondary-foreground rounded-full text-xs">
+                  Figma
+                </span>
+                <span className="px-3 py-1 bg-secondary text-secondary-foreground rounded-full text-xs">
+                  BrickLink
+                </span>
+                <span className="px-3 py-1 bg-secondary text-secondary-foreground rounded-full text-xs">
+                  MS Paint
                 </span>
               </div>
             </div>
