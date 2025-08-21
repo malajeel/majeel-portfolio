@@ -346,25 +346,14 @@ const LegoMiniCity = () => {
               To validate the product concept, a user research study was conducted via a survey across diverse demographics. The key findings directly informed subsequent product decisions.
             </p>
             
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-              <div className="bg-card border border-border rounded-lg p-6">
-                <h3 className="font-semibold mb-3">Key Insights</h3>
-                <ul className="space-y-2 text-muted-foreground">
-                  <li>• 78% of parents prioritize educational value over entertainment</li>
-                  <li>• Children showed 40% higher engagement with AR-assisted building</li>
-                  <li>• Social sharing features were requested by 65% of test users</li>
-                  <li>• Screen time concerns addressed through balanced physical-digital play</li>
-                </ul>
-              </div>
-              <div className="bg-card border border-border rounded-lg p-6">
-                <h3 className="font-semibold mb-3">Design Implications</h3>
-                <ul className="space-y-2 text-muted-foreground">
-                  <li>• Simplified onboarding for younger users</li>
-                  <li>• Parental controls integrated from app launch</li>
-                  <li>• Progressive difficulty to maintain long-term engagement</li>
-                  <li>• Offline functionality for situations without connectivity</li>
-                </ul>
-              </div>
+            <div className="bg-card border border-border rounded-lg p-6">
+              <h3 className="font-semibold mb-3">Key Insights</h3>
+              <ul className="space-y-2 text-muted-foreground">
+                <li>• 78% of parents prioritize educational value over entertainment</li>
+                <li>• Children showed 40% higher engagement with AR-assisted building</li>
+                <li>• Social sharing features were requested by 65% of test users</li>
+                <li>• Screen time concerns addressed through balanced physical-digital play</li>
+              </ul>
             </div>
           </div>
         </section>
