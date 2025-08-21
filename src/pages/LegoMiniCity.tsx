@@ -432,7 +432,7 @@ const LegoMiniCity = () => {
                   BrickLink
                 </span>
                 <span className="px-3 py-1 bg-secondary text-secondary-foreground rounded-full text-xs">
-                  MS Paint
+                  MS Paint (yes some people still use it)
                 </span>
               </div>
             </div>
