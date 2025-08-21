@@ -322,6 +322,16 @@ const LegoMiniCity = () => {
                 <li>• Geo-fenced mobile ads in tourist hubs.</li>
               </ul>
             </div>
+            
+            <div className="bg-card border border-border rounded-lg p-6">
+              <h3 className="font-semibold mb-3">Phase 3: Post-Launch Optimization and Expansion (Ongoing)</h3>
+              <ul className="space-y-2 text-muted-foreground">
+                <li>• Continuous monitoring of sales, app engagement, UGC, customer feedback.</li>
+                <li>• Adjust production, optimize packaging.</li>
+                <li>• Introduce new digital features & rewards.</li>
+                <li>• Expand to new cities based on demand.</li>
+              </ul>
+            </div>
           </div>
         </section>
 
