@@ -34,6 +34,14 @@ const LegoMiniCity = () => {
       );
       
       const scrollPosition = window.scrollY + 200;
+      const windowHeight = window.innerHeight;
+      const documentHeight = document.documentElement.scrollHeight;
+      
+      // Check if we're at the bottom of the page
+      if (scrollPosition + windowHeight >= documentHeight - 100) {
+        setActiveSection(sections.length - 1); // Set to last section (Skills)
+        return;
+      }
       
       for (let i = sectionElements.length - 1; i >= 0; i--) {
         const element = sectionElements[i];
