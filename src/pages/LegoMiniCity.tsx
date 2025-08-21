@@ -175,9 +175,7 @@ const LegoMiniCity = () => {
           <h2 className="text-2xl font-semibold mb-6">Digital Companion App</h2>
           <div className="mb-6">
             <p className="text-muted-foreground leading-relaxed mb-6">
-              The digital companion app enhances the physical building experience through interactive 
-              guides, augmented reality features, and community sharing capabilities. The app serves 
-              as a bridge between traditional play and digital engagement.
+              To enhance the product's value and foster a global community, the LEGO Mini City line is tied to a companion mobile app. To bridge the physical and digital experience, a unique QR code is included within each set's instruction manual, which serves as a key to unlock the digital features in the companion app.
             </p>
             
             <div className="bg-card border border-border rounded-lg p-6 mb-6">
@@ -194,6 +192,29 @@ const LegoMiniCity = () => {
                     View Figma
                   </a>
                 </Button>
+              </div>
+            </div>
+            
+            <p className="text-muted-foreground leading-relaxed mb-6">
+              The app is a central hub for the digital experience, designed to track collections, reward progress, and connect users. The app features four key tabs:
+            </p>
+            
+            <div className="space-y-4 mb-6">
+              <div className="bg-card border border-border rounded-lg p-4">
+                <h4 className="font-semibold mb-2">Profile Tab</h4>
+                <p className="text-muted-foreground text-sm">A personalized "Traveller LEGO Profile" where users can view and display their overall collection progress and earned digital badges.</p>
+              </div>
+              <div className="bg-card border border-border rounded-lg p-4">
+                <h4 className="font-semibold mb-2">Shelf Tab</h4>
+                <p className="text-muted-foreground text-sm">A virtual display case that allows collectors to digitally arrange their owned Mini City sets, mirroring their physical collection.</p>
+              </div>
+              <div className="bg-card border border-border rounded-lg p-4">
+                <h4 className="font-semibold mb-2">Map Tab</h4>
+                <p className="text-muted-foreground text-sm">An interactive map that highlights LEGO stores in cities where Mini City sets are available. It also displays community acquisition data, such as how many users have collected a Mini City set from a particular LEGO store, fostering a sense of shared experience.</p>
+              </div>
+              <div className="bg-card border border-border rounded-lg p-4">
+                <h4 className="font-semibold mb-2">Leaderboard Tab</h4>
+                <p className="text-muted-foreground text-sm">A competitive (we only do friendly competitions) feature that ranks top collectors based on the size of their collection, incentivizing repeat purchases and continued engagement.</p>
               </div>
             </div>
           </div>
