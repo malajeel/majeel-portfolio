@@ -99,7 +99,7 @@ const LegoMiniCity = () => {
             <div className="bg-card border border-border rounded-lg p-6">
               <h3 className="font-semibold mb-3">Primary Users</h3>
               <ul className="space-y-3 text-muted-foreground">
-                <li><strong>Millennial & Gen-Z Travelers:</strong> Seeking creative, city-themed keepsakes with digital bragging rights</li>
+                <li><strong>Millennial & Gen-Z Travellers:</strong> Seeking creative, city-themed keepsakes with digital bragging rights</li>
                 <li><strong>LEGO Enthusiasts & Collectors:</strong> Looking to expand LEGO collection, valuing exclusivity and a good design</li>
                 <li><strong>Families with Kids:</strong> Seeking meaningful souvenirs that connect LEGO play to real-world travel memories</li>
               </ul>
