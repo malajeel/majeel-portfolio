@@ -315,7 +315,11 @@ const LegoMiniCity = () => {
             <div className="bg-card border border-border rounded-lg p-6">
               <h3 className="font-semibold mb-3">Phase 2: Launch (Week 1-8)</h3>
               <ul className="space-y-2 text-muted-foreground">
-                <li>• [Phase 2 details to be added]</li>
+                <li>• Global announcement, vibrant in-store displays in pilot cities.</li>
+                <li>• "Collect Your City" campaign (exclusive badges to be earned on the app).</li>
+                <li>• "Making Of" digital content series.</li>
+                <li>• Limited-time in-app challenges.</li>
+                <li>• Geo-fenced mobile ads in tourist hubs.</li>
               </ul>
             </div>
           </div>
