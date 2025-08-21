@@ -283,8 +283,11 @@ const LegoMiniCity = () => {
               <ul className="space-y-2 text-muted-foreground">
                 <li>• Global Souvenir Market: ~$131.88 billion USD annually.</li>
                 <li>• Serviceable Available Market (LEGO fans): ~$6.59 billion USD.</li>
-                <li>• Serviceable Obtainable Market (In pilot cities): ~$1.23 billion USD.</li>
+                <li>• Serviceable Obtainable Market (In pilot cities*): ~$1.23 billion USD.</li>
               </ul>
+              <p className="text-xs text-muted-foreground/70 mt-3 italic">
+                *Pilot cities are London, Rome, Paris, Tokyo, Bangkok, Dubai, and New York City, selected for their status as leading global tourist hubs over the past several years.
+              </p>
             </div>
             <div className="bg-card border border-border rounded-lg p-6">
               <h3 className="font-semibold mb-3">Strategic Impact</h3>
