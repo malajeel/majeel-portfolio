@@ -183,7 +183,7 @@ const LegoMiniCity = () => {
                 <div>
                   <h3 className="font-semibold mb-2">Interactive Figma Prototype</h3>
                   <p className="text-muted-foreground text-sm">
-                    Explore the complete user interface and experience flow
+                    Explore the medium-fidelity user interface and experience flow
                   </p>
                 </div>
                 <Button variant="outline" className="group" asChild>
