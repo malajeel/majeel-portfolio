@@ -79,16 +79,15 @@ const LegoMiniCity = () => {
         {/* Industry Gap */}
         <section id="section-1" className="mb-16 scroll-mt-24">
           <h2 className="text-2xl font-semibold mb-6">Industry Gap</h2>
-          <div className="bg-card border border-border rounded-lg p-6">
-            <p className="text-muted-foreground leading-relaxed mb-4">
-              Current educational toy markets lack integrated digital-physical experiences that grow 
-              with children's developmental stages. Most products focus on either digital or physical 
-              play, missing opportunities for enhanced learning and engagement.
-            </p>
+          <div className="prose prose-lg max-w-none">
             <p className="text-muted-foreground leading-relaxed">
-              Lego Mini City addresses this gap by creating a seamless bridge between tactile building 
-              experiences and digital innovation, providing sustained engagement and educational value 
-              across multiple age groups.
+              The current souvenir market struggles with a lack of authenticity and value. Generic items like mass-produced keychains, t-shirts, and mugs often feel impersonal and are of poor quality. Decorative options, while sometimes more meaningful, are often fragile, expensive, and not universally appealing.
+            </p>
+            <p className="text-muted-foreground leading-relaxed mt-4">
+              Even LEGO's existing travel-themed sets, such as the Creator Postcards and Architecture Skylines, suffer from widespread availability that diminishes their value as personal mementos. Because a Tokyo postcard set can be ordered online from Canada without ever visiting the country, it lacks the personal connection that a true souvenir provides.
+            </p>
+            <p className="text-muted-foreground leading-relaxed mt-4">
+              There is a clear gap for a unique, high-quality, and interactive souvenir that is both easy to transport and exclusive to the location it represents. It can create a lasting and meaningful memory for travellers, whether they choose to purchase it for themselves or as a thoughtful gift to share with others.
             </p>
           </div>
         </section>
