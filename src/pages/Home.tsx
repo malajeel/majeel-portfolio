@@ -6,7 +6,7 @@ const Home = () => {
   return (
     <div className="min-h-screen flex items-center justify-center px-6 sm:px-8 relative">
       {/* Social Links - Right Side */}
-      <div className="fixed right-8 top-1/2 transform -translate-y-1/2 flex flex-col space-y-6 z-10">
+      <div className="hidden lg:flex fixed right-8 top-1/2 transform -translate-y-1/2 flex-col space-y-6 z-10">
         <a
           href="mailto:malajeel@uwaterloo.ca"
           className="flex items-center text-nav-text hover:text-coral transition-colors"
