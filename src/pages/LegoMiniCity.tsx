@@ -349,10 +349,11 @@ const LegoMiniCity = () => {
             <div className="bg-card border border-border rounded-lg p-6">
               <h3 className="font-semibold mb-3">Key Insights</h3>
               <ul className="space-y-2 text-muted-foreground">
-                <li>• 78% of parents prioritize educational value over entertainment</li>
-                <li>• Children showed 40% higher engagement with AR-assisted building</li>
-                <li>• Social sharing features were requested by 65% of test users</li>
-                <li>• Screen time concerns addressed through balanced physical-digital play</li>
+                <li>• <strong>High Product Appeal:</strong> The concept was met with overwhelming interest, with 96% of respondents finding the idea of a LEGO souvenir either "Very appealing" or "Slightly appealing."</li>
+                <li>• <strong>Core Value Drivers:</strong> The most valued aspects of a souvenir, according to the survey, were that it represents the destination well (84%) and is easy to pack/transport (84%). This validated the focus on compact, landmark/culture-centric builds.</li>
+                <li>• <strong>Primary Concern:</strong> Price was the top concern (76%). Although the survey suggested a range of $20–$25 CAD, we set the target at $15–$20 CAD to strengthen value perception, broaden accessibility, and still ensure profitability for LEGO.</li>
+                <li>• <strong>Gift-Giving Potential:</strong> The survey revealed a strong potential for gift sales, with 88% of respondents "Extremely likely" and "Likely" to purchase a set as a gift, which informed the messaging targeting the "Gift Givers."</li>
+                <li>• For distribution, although some respondents are open to visiting LEGO stores, accessibility and proximity of the stores to tourist areas are critical.</li>
               </ul>
             </div>
           </div>
