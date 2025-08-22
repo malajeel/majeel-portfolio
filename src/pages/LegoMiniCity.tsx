@@ -165,6 +165,10 @@ const LegoMiniCity = () => {
             />
           </div>
           
+          <p className="text-xs text-muted-foreground/70 italic mb-6">
+            The visual mockups were conceptualized and directed by myself, and brought to life with AI support.
+          </p>
+          
           <div className="bg-card border border-border rounded-lg p-6">
             <h3 className="font-semibold mb-3">Key Features</h3>
             <ul className="space-y-2 text-muted-foreground">
