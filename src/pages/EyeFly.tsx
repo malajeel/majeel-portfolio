@@ -78,10 +78,13 @@ const EyeFly = () => {
           <h2 className="text-2xl font-semibold mb-6">About the Project</h2>
           <div className="prose prose-lg max-w-none">
             <p className="text-muted-foreground mb-6 leading-relaxed">
-              EyeFly addresses the critical challenges faced by Canadian provincial ground search and rescue operations. Traditional SAR missions often involve dangerous terrain, limited visibility, and time-sensitive situations where every minute counts in locating distressed individuals.
+              EyeFly is a drone-based search and rescue (SAR) system designed to locate and assist distressed individuals in dangerous or inaccessible environments, such as natural disaster zones or areas with toxic chemicals. It directly addresses the critical need for a safer and more efficient alternative to traditional on-foot SAR methods conducted on a provincial level in Canada, which are time-consuming and pose significant risks to rescue personnel. The product improves on these methods by creating an easy-to-operate solution that is cost-effective, requires less manpower, and scans larger areas in significantly shorter times. Through this, EyeFly aims to be the next step to enhancing SAR operations and saving more lives.
             </p>
             <p className="text-muted-foreground mb-6 leading-relaxed">
-              Our solution combines cutting-edge drone technology with intuitive operation interfaces, allowing SAR teams to efficiently scan large or hazardous areas while maintaining operator safety. The system utilizes advanced cameras and sensors for autonomous navigation, reducing the learning curve and operational complexity typically associated with drone technology.
+              My role as product manager was to lead this product from concept to a successful prototype. I was responsible for defining the product vision, conducting user and market research to understand the core problem, and translating those insights into a detailed set of functional and non-functional specifications. A key part of my role was to facilitate critical design trade-offs, such as prioritizing detection accuracy over speed when selecting the machine learning model, as this was deemed essential for ensuring the product's effectiveness in a critical situation.
+            </p>
+            <p className="text-muted-foreground mb-6 leading-relaxed">
+              The final prototype successfully validated the product's core objectives. It demonstrated a continuous flight time that exceeded the essential requirement and achieved object recognition with a high degree of accuracy. The team also validated its payload delivery capability by having the drone transport a care package. These results prove the viability and value of EyeFly as a powerful tool for modernizing SAR missions.
             </p>
             <div className="grid md:grid-cols-2 gap-8 mt-8">
               <div className="bg-card border border-border rounded-lg p-6">
