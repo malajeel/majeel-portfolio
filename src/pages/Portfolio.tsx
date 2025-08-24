@@ -26,9 +26,7 @@ const Portfolio = () => {
                     LEGO Mini City
                   </h3>
                   <p className="text-muted-foreground mb-4 leading-relaxed">
-                    A comprehensive product development project featuring both physical product design 
-                    and digital companion app. This project demonstrates end-to-end product strategy, 
-                    market research, and go-to-market planning.
+                    A comprehensive product development project featuring both physical product design and a digital companion app. The LEGO Mini City reimagines souvenirs through collectible, geo-exclusive LEGO sets paired with an interactive app, transforming traditional keepsakes into meaningful, hands-on experiences. This project showcases end-to-end product strategy, market research, and go-to-market planning.
                   </p>
                 </div>
                 <div className="md:ml-8">
