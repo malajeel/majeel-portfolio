@@ -8,7 +8,7 @@ const EyeFly = () => {
   const [activeSection, setActiveSection] = useState(0);
   
   const sections = [
-    "About the Project",
+    "High-Level Description",
     "Case Studies", 
     "Key Artifacts & Deliverables",
     "Skills"
@@ -73,9 +73,9 @@ const EyeFly = () => {
           </p>
         </div>
 
-        {/* About the Project */}
+        {/* High-Level Description */}
         <section id="section-0" className="mb-16 scroll-mt-24">
-          <h2 className="text-2xl font-semibold mb-6">About the Project</h2>
+          <h2 className="text-2xl font-semibold mb-6">High-Level Description</h2>
           <div className="prose prose-lg max-w-none">
             <p className="text-muted-foreground mb-6 leading-relaxed">
               EyeFly is a drone-based search and rescue (SAR) system designed to locate and assist distressed individuals in dangerous or inaccessible environments, such as natural disaster zones or areas with toxic chemicals. It directly addresses the critical need for a safer and more efficient alternative to traditional on-foot SAR methods conducted on a provincial level in Canada, which are time-consuming and pose significant risks to rescue personnel. The product improves on these methods by creating an easy-to-operate solution that is cost-effective, requires less manpower, and scans larger areas in significantly shorter times. Through this, EyeFly aims to be the next step to enhancing SAR operations and saving more lives.
