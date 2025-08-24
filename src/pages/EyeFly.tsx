@@ -53,8 +53,12 @@ const EyeFly = () => {
       
       <div className="max-w-4xl mx-auto lg:ml-64">
         {/* Header */}
-        <div className="text-center mb-16 animate-fade-in">
-          <h1 className="text-section-title mb-6">EyeFly Drone Solution</h1>
+        <div className="mb-16 animate-fade-in">
+          <Link to="/portfolio" className="inline-flex items-center text-coral hover:text-coral/80 transition-colors mb-6 font-bold">
+            <ArrowLeft className="mr-2 h-4 w-4" />
+            Back to Portfolio
+          </Link>
+          <h1 className="text-section-title mb-6 text-center">EyeFly Drone Solution</h1>
           <div className="w-16 h-1 bg-coral mx-auto mb-6"></div>
           <p className="text-body-large text-muted-foreground max-w-2xl mx-auto">
             An easy-to-operate drone solution designed to enhance Canadian provincial ground search and rescue (SAR) operations.
@@ -208,16 +212,6 @@ const EyeFly = () => {
             </div>
           </div>
         </section>
-
-        {/* Back to Portfolio */}
-        <div className="text-center">
-          <Link to="/portfolio">
-            <Button variant="outline" className="group">
-              <ArrowLeft className="mr-2 h-4 w-4 group-hover:-translate-x-1 transition-transform" />
-              Back to Portfolio
-            </Button>
-          </Link>
-        </div>
       </div>
     </div>
   );
