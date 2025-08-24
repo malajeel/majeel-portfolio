@@ -51,7 +51,7 @@ const EyeFly = () => {
         onSectionClick={scrollToSection}
       />
       
-      <div className="max-w-4xl mx-auto">
+      <div className="max-w-4xl mx-auto lg:ml-64">
         {/* Header */}
         <div className="text-center mb-16 animate-fade-in">
           <h1 className="text-section-title mb-6">EyeFly Drone Solution</h1>
