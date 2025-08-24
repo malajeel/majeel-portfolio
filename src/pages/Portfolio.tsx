@@ -56,6 +56,14 @@ const Portfolio = () => {
                     navigation and scanning of large or hazardous areas.
                   </p>
                 </div>
+                <div className="md:ml-8">
+                  <Link to="/portfolio/eyefly">
+                    <Button variant="outline" className="group/btn">
+                      View Project
+                      <ArrowRight className="ml-2 h-4 w-4 group-hover/btn:translate-x-1 transition-transform" />
+                    </Button>
+                  </Link>
+                </div>
               </div>
             </div>
           </div>
