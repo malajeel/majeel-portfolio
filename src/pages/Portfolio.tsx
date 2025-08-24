@@ -23,7 +23,7 @@ const Portfolio = () => {
               <div className="flex flex-col md:flex-row md:items-center md:justify-between">
                 <div className="flex-1">
                   <h3 className="text-2xl font-semibold mb-3 group-hover:text-coral transition-colors">
-                    Lego Mini City
+                    LEGO Mini City
                   </h3>
                   <p className="text-muted-foreground mb-4 leading-relaxed">
                     A comprehensive product development project featuring both physical product design 
