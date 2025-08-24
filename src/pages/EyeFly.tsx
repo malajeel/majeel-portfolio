@@ -52,30 +52,30 @@ const EyeFly = () => {
   }, []);
 
   return (
-    <div className="min-h-screen py-20 px-6 sm:px-8">
+    <div className="min-h-screen py-20 px-6 sm:px-8 lg:pl-48">
       <PortfolioProgress 
         sections={sections}
         activeSection={activeSection}
         onSectionClick={scrollToSection}
       />
       
-      <div className="max-w-4xl mx-auto lg:ml-64">
+      <div className="max-w-4xl mx-auto">
         {/* Header */}
-        <div className="mb-16 animate-fade-in">
+        <div className="mb-16">
           <Link to="/portfolio" className="inline-flex items-center text-coral hover:text-coral/80 transition-colors mb-6 font-bold">
             <ArrowLeft className="mr-2 h-4 w-4" />
             Back to Portfolio
           </Link>
-          <h1 className="text-section-title mb-6 text-center">EyeFly Drone Solution</h1>
-          <div className="w-16 h-1 bg-coral mx-auto mb-6"></div>
-          <p className="text-body-large text-muted-foreground max-w-2xl mx-auto">
+          <h1 className="text-section-title mb-6">EyeFly Drone Solution</h1>
+          <div className="w-16 h-1 bg-coral mb-6"></div>
+          <p className="text-body-large text-muted-foreground">
             An easy-to-operate drone solution designed to enhance Canadian provincial ground search and rescue (SAR) operations.
           </p>
         </div>
 
         {/* About the Project */}
-        <section id="section-0" className="mb-20 animate-slide-up scroll-mt-24">
-          <h2 className="text-3xl font-bold mb-8 text-center">About the Project</h2>
+        <section id="section-0" className="mb-16 scroll-mt-24">
+          <h2 className="text-2xl font-semibold mb-6">About the Project</h2>
           <div className="prose prose-lg max-w-none">
             <p className="text-muted-foreground mb-6 leading-relaxed">
               EyeFly addresses the critical challenges faced by Canadian provincial ground search and rescue operations. Traditional SAR missions often involve dangerous terrain, limited visibility, and time-sensitive situations where every minute counts in locating distressed individuals.
@@ -101,8 +101,8 @@ const EyeFly = () => {
         </section>
 
         {/* Case Studies */}
-        <section id="section-1" className="mb-20 animate-slide-up scroll-mt-24">
-          <h2 className="text-3xl font-bold mb-8 text-center">Case Studies</h2>
+        <section id="section-1" className="mb-16 scroll-mt-24">
+          <h2 className="text-2xl font-semibold mb-6">Case Studies</h2>
           <div className="space-y-8">
             <div className="bg-card border border-border rounded-lg p-8">
               <h3 className="text-2xl font-semibold mb-4">Mountain Rescue Operations</h3>
@@ -131,8 +131,8 @@ const EyeFly = () => {
         </section>
 
         {/* Key Artifacts & Deliverables */}
-        <section id="section-2" className="mb-20 animate-slide-up scroll-mt-24">
-          <h2 className="text-3xl font-bold mb-8 text-center">Key Artifacts & Deliverables</h2>
+        <section id="section-2" className="mb-16 scroll-mt-24">
+          <h2 className="text-2xl font-semibold mb-6">Key Artifacts & Deliverables</h2>
           <div className="grid md:grid-cols-2 gap-8">
             <div className="space-y-6">
               <div className="bg-card border border-border rounded-lg p-6">
@@ -189,8 +189,8 @@ const EyeFly = () => {
         </section>
 
         {/* Skills */}
-        <section id="section-3" className="mb-20 animate-slide-up scroll-mt-24">
-          <h2 className="text-3xl font-bold mb-8 text-center">Skills</h2>
+        <section id="section-3" className="mb-16 scroll-mt-24">
+          <h2 className="text-2xl font-semibold mb-6">Skills</h2>
           <div className="grid md:grid-cols-3 gap-6">
             <div className="bg-card border border-border rounded-lg p-6 text-center">
               <h3 className="text-lg font-semibold mb-4">Product Strategy</h3>
