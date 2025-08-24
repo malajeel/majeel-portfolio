@@ -57,10 +57,6 @@ const Portfolio = () => {
                     of locating distressed individuals by utilizing mounted cameras and sensors for autonomous 
                     navigation and scanning of large or hazardous areas.
                   </p>
-                  <div className="flex items-center text-muted-foreground">
-                    <ExternalLink className="mr-2 h-4 w-4" />
-                    <span className="text-sm">Live video footage and location data for SAR dispatchers</span>
-                  </div>
                 </div>
               </div>
             </div>
