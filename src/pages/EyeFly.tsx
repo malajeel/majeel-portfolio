@@ -18,7 +18,7 @@ const EyeFly = () => {
     const sectionId = `section-${index}`;
     const element = document.getElementById(sectionId);
     if (element) {
-      element.scrollIntoView({ behavior: 'smooth' });
+      element.scrollIntoView({ behavior: 'smooth', block: 'start' });
     }
   };
 
@@ -28,7 +28,15 @@ const EyeFly = () => {
         document.getElementById(`section-${index}`)
       );
       
-      const scrollPosition = window.scrollY + 100;
+      const scrollPosition = window.scrollY + 200;
+      const windowHeight = window.innerHeight;
+      const documentHeight = document.documentElement.scrollHeight;
+      
+      // Check if we're at the bottom of the page
+      if (scrollPosition + windowHeight >= documentHeight - 100) {
+        setActiveSection(sections.length - 1); // Set to last section (Skills)
+        return;
+      }
       
       for (let i = sectionElements.length - 1; i >= 0; i--) {
         const element = sectionElements[i];
@@ -41,7 +49,7 @@ const EyeFly = () => {
 
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
-  }, [sections]);
+  }, []);
 
   return (
     <div className="min-h-screen py-20 px-6 sm:px-8">
@@ -66,7 +74,7 @@ const EyeFly = () => {
         </div>
 
         {/* About the Project */}
-        <section id="section-0" className="mb-20 animate-slide-up">
+        <section id="section-0" className="mb-20 animate-slide-up scroll-mt-24">
           <h2 className="text-3xl font-bold mb-8 text-center">About the Project</h2>
           <div className="prose prose-lg max-w-none">
             <p className="text-muted-foreground mb-6 leading-relaxed">
@@ -93,7 +101,7 @@ const EyeFly = () => {
         </section>
 
         {/* Case Studies */}
-        <section id="section-1" className="mb-20 animate-slide-up">
+        <section id="section-1" className="mb-20 animate-slide-up scroll-mt-24">
           <h2 className="text-3xl font-bold mb-8 text-center">Case Studies</h2>
           <div className="space-y-8">
             <div className="bg-card border border-border rounded-lg p-8">
@@ -123,7 +131,7 @@ const EyeFly = () => {
         </section>
 
         {/* Key Artifacts & Deliverables */}
-        <section id="section-2" className="mb-20 animate-slide-up">
+        <section id="section-2" className="mb-20 animate-slide-up scroll-mt-24">
           <h2 className="text-3xl font-bold mb-8 text-center">Key Artifacts & Deliverables</h2>
           <div className="grid md:grid-cols-2 gap-8">
             <div className="space-y-6">
@@ -181,7 +189,7 @@ const EyeFly = () => {
         </section>
 
         {/* Skills */}
-        <section id="section-3" className="mb-20 animate-slide-up">
+        <section id="section-3" className="mb-20 animate-slide-up scroll-mt-24">
           <h2 className="text-3xl font-bold mb-8 text-center">Skills</h2>
           <div className="grid md:grid-cols-3 gap-6">
             <div className="bg-card border border-border rounded-lg p-6 text-center">
@@ -212,6 +220,14 @@ const EyeFly = () => {
             </div>
           </div>
         </section>
+
+        {/* Back to Portfolio */}
+        <div className="text-center">
+          <Link to="/portfolio" className="inline-flex items-center text-coral hover:text-coral/80 transition-colors font-bold">
+            <ArrowLeft className="mr-2 h-4 w-4" />
+            Back to Portfolio
+          </Link>
+        </div>
       </div>
     </div>
   );
