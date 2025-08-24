@@ -222,7 +222,7 @@ const EyeFly = () => {
         </section>
 
         {/* Back to Portfolio */}
-        <div className="text-center">
+        <div>
           <Link to="/portfolio" className="inline-flex items-center text-coral hover:text-coral/80 transition-colors font-bold">
             <ArrowLeft className="mr-2 h-4 w-4" />
             Back to Portfolio
