@@ -9,8 +9,12 @@ const EyeFly = () => {
   
   const sections = [
     "High-Level Description",
-    "Case Studies", 
-    "Key Artifacts & Deliverables",
+    "Industry Gap", 
+    "Target Audience",
+    "Physical Product",
+    "Detection",
+    "Data Visualization", 
+    "Value Proposition",
     "Skills"
   ];
 
@@ -86,113 +90,256 @@ const EyeFly = () => {
             <p className="text-muted-foreground mb-6 leading-relaxed">
               The final prototype successfully validated the product's core objectives. It demonstrated a continuous flight time that exceeded the essential requirement and achieved object recognition with a high degree of accuracy. The team also validated its payload delivery capability by having the drone transport a care package. These results prove the viability and value of EyeFly as a powerful tool for modernizing SAR missions.
             </p>
-            <div className="grid md:grid-cols-2 gap-8 mt-8">
+            <div className="grid md:grid-cols-3 gap-8 mt-8">
               <div className="bg-card border border-border rounded-lg p-6">
                 <h3 className="text-xl font-semibold mb-4">Problem Statement</h3>
                 <p className="text-muted-foreground">
-                  Traditional SAR operations face challenges with terrain accessibility, time constraints, and operator safety in hazardous environments.
+                  Traditional on-foot SAR is slow, inefficient, and sometimes dangerous for personnel, often taking days to locate distressed individuals. This outdated approach is ill-suited for large, hazardous environments, which can result in delayed and potentially fatal outcomes.
                 </p>
               </div>
               <div className="bg-card border border-border rounded-lg p-6">
                 <h3 className="text-xl font-semibold mb-4">Solution Approach</h3>
                 <p className="text-muted-foreground">
-                  Autonomous drone technology with simplified controls, advanced sensors, and real-time data transmission capabilities.
+                  The approach was to create an autonomous system that uses on-board sensors and machine learning to quickly and safely scan large, inaccessible areas. By transmitting real-time data, EyeFly provides a faster and more efficient way to locate and assist individuals, reducing risk to rescue teams and ultimately saving lives.
+                </p>
+              </div>
+              <div className="bg-card border border-border rounded-lg p-6">
+                <h3 className="text-xl font-semibold mb-4">Product Objective</h3>
+                <p className="text-muted-foreground">
+                  To design a drone that will scout for distressed individuals in areas including outdoor settings and buildings that pose a risk to SAR personnel. Examples include toxic chemicals on site, natural disasters, national parks, and explosive ordinances. Additionally, it will deliver food, radios, maps, or essential medical supplies to them until dispatchers' arrival.
                 </p>
               </div>
             </div>
           </div>
         </section>
 
-        {/* Case Studies */}
+        {/* Industry Gap */}
         <section id="section-1" className="mb-16 scroll-mt-24">
-          <h2 className="text-2xl font-semibold mb-6">Case Studies</h2>
+          <h2 className="text-2xl font-semibold mb-6">Industry Gap</h2>
           <div className="space-y-8">
             <div className="bg-card border border-border rounded-lg p-8">
-              <h3 className="text-2xl font-semibold mb-4">Mountain Rescue Operations</h3>
+              <h3 className="text-2xl font-semibold mb-4">Inefficiency and Risk</h3>
               <p className="text-muted-foreground mb-4 leading-relaxed">
-                In mountainous terrain where traditional ground teams face significant risks, EyeFly enables comprehensive area scanning from safe distances. The drone's advanced sensors can detect heat signatures and movement patterns, significantly reducing search times.
+                Traditional SAR methods are slow, dangerous, and resource-intensive. They rely on human teams on foot or in manned aircraft, which limits the area they can cover and puts rescuers at risk.
               </p>
-              <div className="flex flex-wrap gap-2">
-                <span className="bg-secondary text-secondary-foreground px-3 py-1 rounded-full text-sm">Terrain Mapping</span>
-                <span className="bg-secondary text-secondary-foreground px-3 py-1 rounded-full text-sm">Heat Detection</span>
-                <span className="bg-secondary text-secondary-foreground px-3 py-1 rounded-full text-sm">Risk Reduction</span>
+            </div>
+
+            <div className="bg-card border border-border rounded-lg p-8">
+              <h3 className="text-2xl font-semibold mb-4">Lack of Real-Time Data</h3>
+              <p className="text-muted-foreground mb-4 leading-relaxed">
+                Existing methods often lack a centralized, real-time system to monitor the search area, share live updates, or coordinate multiple teams. This creates communication gaps and delays.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        {/* Target Audience */}
+        <section id="section-2" className="mb-16 scroll-mt-24">
+          <h2 className="text-2xl font-semibold mb-6">Target Audience</h2>
+          <div className="space-y-8">
+            <div className="bg-card border border-border rounded-lg p-8">
+              <h3 className="text-2xl font-semibold mb-6">Primary Users</h3>
+              <div className="space-y-4">
+                <div className="border-l-4 border-coral pl-6">
+                  <h4 className="text-lg font-semibold mb-2">SAR teams, first responders, and volunteer rescue organizations</h4>
+                  <p className="text-muted-foreground">
+                    They are the ones who will operate the drone and use the data to make life-saving decisions.
+                  </p>
+                </div>
               </div>
             </div>
 
             <div className="bg-card border border-border rounded-lg p-8">
-              <h3 className="text-2xl font-semibold mb-4">Wilderness Search Scenarios</h3>
-              <p className="text-muted-foreground mb-4 leading-relaxed">
-                For large wilderness areas, EyeFly's autonomous navigation capabilities allow for systematic grid searches while operators coordinate from a central command post. Real-time data transmission ensures immediate response to any findings.
-              </p>
-              <div className="flex flex-wrap gap-2">
-                <span className="bg-secondary text-secondary-foreground px-3 py-1 rounded-full text-sm">Grid Search</span>
-                <span className="bg-secondary text-secondary-foreground px-3 py-1 rounded-full text-sm">Real-time Data</span>
-                <span className="bg-secondary text-secondary-foreground px-3 py-1 rounded-full text-sm">Coordination</span>
+              <h3 className="text-2xl font-semibold mb-6">Secondary Users</h3>
+              <div className="space-y-6">
+                <div className="border-l-4 border-muted pl-6">
+                  <h4 className="text-lg font-semibold mb-2">Training and Certification Bodies</h4>
+                  <p className="text-muted-foreground">
+                    Organizations that would develop and offer training programs for SAR teams to learn how to operate the drone and interpret the data. They need to understand the product's capabilities to build a curriculum.
+                  </p>
+                </div>
+                <div className="border-l-4 border-muted pl-6">
+                  <h4 className="text-lg font-semibold mb-2">Academic and Research Institutions</h4>
+                  <p className="text-muted-foreground">
+                    Researchers who might use the de-identified data (e.g., flight logs, detection accuracy metrics) from past missions to conduct studies on SAR optimization and the effectiveness of drone technology.
+                  </p>
+                </div>
               </div>
             </div>
           </div>
         </section>
 
-        {/* Key Artifacts & Deliverables */}
-        <section id="section-2" className="mb-16 scroll-mt-24">
-          <h2 className="text-2xl font-semibold mb-6">Key Artifacts & Deliverables</h2>
-          <div className="grid md:grid-cols-2 gap-8">
-            <div className="space-y-6">
-              <div className="bg-card border border-border rounded-lg p-6">
-                <h3 className="text-xl font-semibold mb-3">Technical Specifications</h3>
+        {/* Physical Product */}
+        <section id="section-3" className="mb-16 scroll-mt-24">
+          <h2 className="text-2xl font-semibold mb-6">Physical Product</h2>
+          <div className="space-y-8">
+            <div className="text-center mb-8">
+              <img 
+                src="/lovable-uploads/5406ffa1-36eb-48f8-9c91-e25703986d51.png" 
+                alt="Final Design of EyeFly drone"
+                className="mx-auto rounded-lg shadow-lg max-w-2xl w-full"
+              />
+              <p className="text-muted-foreground mt-4 text-lg">Final Design of EyeFly</p>
+            </div>
+            
+            <div className="prose prose-lg max-w-none">
+              <p className="text-muted-foreground mb-6 leading-relaxed">
+                The physical product can be described as follows:
+              </p>
+              <div className="bg-card border border-border rounded-lg p-8 mb-6">
+                <h3 className="text-xl font-semibold mb-4">A Robust and Modular System</h3>
                 <p className="text-muted-foreground mb-4">
-                  Comprehensive documentation of drone capabilities, sensor specifications, and operational parameters.
+                  EyeFly is a drone built on a durable, lightweight carbon-fiber frame. Its design is modular for easy assembly and maintenance.
                 </p>
-                <ul className="text-muted-foreground space-y-2">
-                  <li>• Flight range and battery specifications</li>
-                  <li>• Camera and sensor technical details</li>
-                  <li>• Weather resistance ratings</li>
-                </ul>
               </div>
               
-              <div className="bg-card border border-border rounded-lg p-6">
-                <h3 className="text-xl font-semibold mb-3">User Interface Design</h3>
+              <div className="bg-card border border-border rounded-lg p-8 mb-6">
+                <h3 className="text-xl font-semibold mb-4">Advanced Hardware</h3>
                 <p className="text-muted-foreground mb-4">
-                  Intuitive control interface designed for rapid deployment and ease of use by SAR personnel.
+                  The drone's core includes a powerful computing controller for real-time processing and a flight controller for stable, autonomous flight. It is equipped with an array of sensors, including high-resolution cameras for visual inspection and a GPS module for precise location tracking.
                 </p>
-                <ul className="text-muted-foreground space-y-2">
-                  <li>• Simplified control layouts</li>
-                  <li>• Real-time data visualization</li>
-                  <li>• Emergency protocols integration</li>
-                </ul>
+              </div>
+              
+              <div className="bg-card border border-border rounded-lg p-8 mb-8">
+                <h3 className="text-xl font-semibold mb-4">Safety and Visibility</h3>
+                <p className="text-muted-foreground mb-4">
+                  The final design includes safety modifications like a fuse for hardware protection and bright LED lights for enhanced visibility during nighttime operations.
+                </p>
+              </div>
+              
+              <h3 className="text-xl font-semibold mb-6">Key Features</h3>
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-secondary/10 border border-secondary/20 rounded-lg p-6">
+                  <h4 className="font-semibold mb-3">Autonomous Flight and Navigation</h4>
+                  <p className="text-muted-foreground text-sm">
+                    The drone can operate in GPS-denied environments using a visual inertial odometry (VIO) system. It supports waypoint navigation for pre-planned missions.
+                  </p>
+                </div>
+                <div className="bg-secondary/10 border border-secondary/20 rounded-lg p-6">
+                  <h4 className="font-semibold mb-3">Real-Time Data Transmission</h4>
+                  <p className="text-muted-foreground text-sm">
+                    It maintains a stable, long-range connection via an LTE module and WiFi, transmitting live video feeds, telemetry, and location data back to ground control.
+                  </p>
+                </div>
+                <div className="bg-secondary/10 border border-secondary/20 rounded-lg p-6">
+                  <h4 className="font-semibold mb-3">Care Package Delivery</h4>
+                  <p className="text-muted-foreground text-sm">
+                    The drone can carry and deliver a small care package with essential supplies to a stranded individual.
+                  </p>
+                </div>
+                <div className="bg-secondary/10 border border-secondary/20 rounded-lg p-6">
+                  <h4 className="font-semibold mb-3">Safe Landing</h4>
+                  <p className="text-muted-foreground text-sm">
+                    Drone is able to safely land itself from at least 2m above ground if communication is lost.
+                  </p>
+                </div>
               </div>
             </div>
+          </div>
+        </section>
 
-            <div className="space-y-6">
-              <div className="bg-card border border-border rounded-lg p-6">
-                <h3 className="text-xl font-semibold mb-3">Training Materials</h3>
-                <p className="text-muted-foreground mb-4">
-                  Comprehensive training programs for SAR teams to ensure effective deployment and operation.
-                </p>
-                <ul className="text-muted-foreground space-y-2">
-                  <li>• Quick-start operation guides</li>
-                  <li>• Scenario-based training modules</li>
-                  <li>• Maintenance and troubleshooting</li>
-                </ul>
+        {/* Detection */}
+        <section id="section-4" className="mb-16 scroll-mt-24">
+          <h2 className="text-2xl font-semibold mb-6">Detection</h2>
+          <div className="space-y-8">
+            <div className="text-center mb-8">
+              <img 
+                src="/lovable-uploads/33e4f992-031d-4d49-8bc5-d474fcf71e08.png" 
+                alt="Outdoor Object Recognition system interface"
+                className="mx-auto rounded-lg shadow-lg max-w-4xl w-full"
+              />
+              <p className="text-muted-foreground mt-4 text-lg">Outdoor Object Recognition</p>
+            </div>
+            
+            <div className="prose prose-lg max-w-none">
+              <p className="text-muted-foreground mb-6 leading-relaxed">
+                The drone's target identification capability is powered by advanced object detection technologies:
+              </p>
+              <div className="grid md:grid-cols-2 gap-8">
+                <div className="bg-card border border-border rounded-lg p-8">
+                  <h3 className="text-xl font-semibold mb-4">Machine Learning-Powered Object Recognition</h3>
+                  <p className="text-muted-foreground">
+                    The drone uses an on-board deep learning model to automatically detect people and other objects in real-time. This reduces the cognitive load on operators and accelerates the search process.
+                  </p>
+                </div>
+                <div className="bg-card border border-border rounded-lg p-8">
+                  <h3 className="text-xl font-semibold mb-4">Optimized for Performance</h3>
+                  <p className="text-muted-foreground">
+                    The model was specifically chosen after a trade-off analysis that prioritized detection accuracy over speed, ensuring reliable identification in critical situations.
+                  </p>
+                </div>
               </div>
+            </div>
+          </div>
+        </section>
 
-              <div className="bg-card border border-border rounded-lg p-6">
-                <h3 className="text-xl font-semibold mb-3">Operational Protocols</h3>
-                <p className="text-muted-foreground mb-4">
-                  Standard operating procedures for integration with existing SAR workflows and emergency response.
+        {/* Data Visualization */}
+        <section id="section-5" className="mb-16 scroll-mt-24">
+          <h2 className="text-2xl font-semibold mb-6">Data Visualization</h2>
+          <div className="space-y-8">
+            <div className="text-center mb-8">
+              <img 
+                src="/lovable-uploads/f5cd0863-4f60-419f-9900-8d84816aefc0.png" 
+                alt="Screenshot from the User Interface"
+                className="mx-auto rounded-lg shadow-lg max-w-4xl w-full"
+              />
+              <p className="text-muted-foreground mt-4 text-lg">Screenshot from the User Interface</p>
+            </div>
+            
+            <div className="prose prose-lg max-w-none">
+              <p className="text-muted-foreground mb-6 leading-relaxed">
+                Information collected by the drone is delivered to the operators through clear, user-focused and easy-to-interpret visualization tools:
+              </p>
+              <div className="grid md:grid-cols-2 gap-8">
+                <div className="bg-card border border-border rounded-lg p-8">
+                  <h3 className="text-xl font-semibold mb-4">Intuitive Ground Control Interface</h3>
+                  <p className="text-muted-foreground">
+                    All data, including live video feeds, drone telemetry such as battery and CPU temperature, and GPS coordinates, is streamed to a user-friendly ground control station on a user-friendly UI.
+                  </p>
+                </div>
+                <div className="bg-card border border-border rounded-lg p-8">
+                  <h3 className="text-xl font-semibold mb-4">Location Mapping</h3>
+                  <p className="text-muted-foreground">
+                    A key feature is the real-time mapping of detection points. When the drone identifies a person, it automatically plots their precise location on a map, providing an immediate and clear reference for rescue teams. This is a critical improvement over manual methods.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Value Proposition */}
+        <section id="section-6" className="mb-16 scroll-mt-24">
+          <h2 className="text-2xl font-semibold mb-6">Value Proposition</h2>
+          <div className="prose prose-lg max-w-none">
+            <p className="text-muted-foreground mb-6 leading-relaxed">
+              EyeFly is designed to go beyond simple aerial surveillance and delivers tangible, mission-critical benefits that directly support rescue operations:
+            </p>
+            <div className="grid md:grid-cols-3 gap-8">
+              <div className="bg-card border border-border rounded-lg p-8 text-center">
+                <h3 className="text-xl font-semibold mb-4">Enhanced Safety and Efficiency</h3>
+                <p className="text-muted-foreground">
+                  EyeFly significantly reduces the risk to human rescuers and minimizes the manpower needed for a search.
                 </p>
-                <ul className="text-muted-foreground space-y-2">
-                  <li>• Deployment decision matrices</li>
-                  <li>• Communication protocols</li>
-                  <li>• Data handling and privacy</li>
-                </ul>
+              </div>
+              <div className="bg-card border border-border rounded-lg p-8 text-center">
+                <h3 className="text-xl font-semibold mb-4">Accelerated Rescue Time</h3>
+                <p className="text-muted-foreground">
+                  By rapidly scanning large areas and providing real-time location data, the drone can find distressed individuals much faster than traditional methods, ultimately increasing the chance of survival.
+                </p>
+              </div>
+              <div className="bg-card border border-border rounded-lg p-8 text-center">
+                <h3 className="text-xl font-semibold mb-4">Operational Intelligence</h3>
+                <p className="text-muted-foreground">
+                  It provides a common operating picture for all stakeholders, enabling better-informed decisions and improved coordination in high-stress situations.
+                </p>
               </div>
             </div>
           </div>
         </section>
 
         {/* Skills */}
-        <section id="section-3" className="mb-16 scroll-mt-24">
+        <section id="section-7" className="mb-16 scroll-mt-24">
           <h2 className="text-2xl font-semibold mb-6">Skills</h2>
           <div className="grid md:grid-cols-3 gap-6">
             <div className="bg-card border border-border rounded-lg p-6 text-center">
