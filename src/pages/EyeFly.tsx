@@ -30,38 +30,42 @@ const EyeFly = () => {
     const handleScroll = () => {
       const sectionElements = sections.map((_, index) => 
         document.getElementById(`section-${index}`)
-      );
+      ).filter(Boolean); // Remove null elements
       
-      const scrollPosition = window.scrollY + 100;
+      if (sectionElements.length === 0) return;
+      
+      const scrollPosition = window.scrollY + window.innerHeight / 3;
       const windowHeight = window.innerHeight;
       const documentHeight = document.documentElement.scrollHeight;
       
       // Check if we're very close to the bottom of the page
-      if (scrollPosition + windowHeight >= documentHeight - 50) {
-        setActiveSection(sections.length - 1); // Set to last section (Skills)
+      if (window.scrollY + windowHeight >= documentHeight - 50) {
+        setActiveSection(sections.length - 1);
         return;
       }
       
       // Find the section that's currently in view
-      for (let i = sectionElements.length - 1; i >= 0; i--) {
+      let newActiveSection = 0;
+      
+      for (let i = 0; i < sectionElements.length; i++) {
         const element = sectionElements[i];
         if (element) {
-          const elementTop = element.offsetTop;
-          const elementBottom = elementTop + element.offsetHeight;
+          const rect = element.getBoundingClientRect();
+          const elementTop = window.scrollY + rect.top;
           
-          // Check if section is in viewport
-          if (scrollPosition >= elementTop - 150 && scrollPosition < elementBottom - 150) {
-            setActiveSection(i);
-            break;
+          if (scrollPosition >= elementTop) {
+            newActiveSection = i;
           }
         }
       }
+      
+      setActiveSection(newActiveSection);
     };
 
     window.addEventListener('scroll', handleScroll);
     handleScroll(); // Run on mount to set initial state
     return () => window.removeEventListener('scroll', handleScroll);
-  }, []);
+  }, [sections]);
 
   return (
     <div className="min-h-screen py-20 px-6 sm:px-8 lg:pl-48">
