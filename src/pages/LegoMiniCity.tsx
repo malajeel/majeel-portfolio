@@ -370,22 +370,17 @@ const LegoMiniCity = () => {
             Key competencies and tools demonstrated throughout this project:
           </p>
           
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div className="bg-card border border-border rounded-lg p-6 text-center">
-              <h3 className="text-lg font-semibold mb-4">Product Strategy</h3>
+              <h3 className="text-lg font-semibold mb-4">Product Management</h3>
               <div className="flex flex-wrap gap-2 justify-center">
                 <span className="bg-coral/10 text-coral px-3 py-1 rounded-full text-sm">Product Strategy</span>
                 <span className="bg-coral/10 text-coral px-3 py-1 rounded-full text-sm">Market Research</span>
                 <span className="bg-coral/10 text-coral px-3 py-1 rounded-full text-sm">GTM Strategy</span>
-              </div>
-            </div>
-
-            <div className="bg-card border border-border rounded-lg p-6 text-center">
-              <h3 className="text-lg font-semibold mb-4">Product Management</h3>
-              <div className="flex flex-wrap gap-2 justify-center">
                 <span className="bg-coral/10 text-coral px-3 py-1 rounded-full text-sm">PRD</span>
                 <span className="bg-coral/10 text-coral px-3 py-1 rounded-full text-sm">Strategic Planning</span>
                 <span className="bg-coral/10 text-coral px-3 py-1 rounded-full text-sm">User Research</span>
+                <span className="bg-coral/10 text-coral px-3 py-1 rounded-full text-sm">Data-Informed Decision Making</span>
               </div>
             </div>
 
@@ -394,7 +389,11 @@ const LegoMiniCity = () => {
               <div className="flex flex-wrap gap-2 justify-center">
                 <span className="bg-coral/10 text-coral px-3 py-1 rounded-full text-sm">UX Design</span>
                 <span className="bg-coral/10 text-coral px-3 py-1 rounded-full text-sm">Prototyping</span>
+                <span className="bg-coral/10 text-coral px-3 py-1 rounded-full text-sm">User Research</span>
+                <span className="bg-coral/10 text-coral px-3 py-1 rounded-full text-sm">Agile Development</span>
                 <span className="bg-coral/10 text-coral px-3 py-1 rounded-full text-sm">Figma</span>
+                <span className="bg-coral/10 text-coral px-3 py-1 rounded-full text-sm">BrickLink</span>
+                <span className="bg-coral/10 text-coral px-3 py-1 rounded-full text-sm">MS Paint (yes some people still use it)</span>
               </div>
             </div>
           </div>
