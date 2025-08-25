@@ -32,26 +32,34 @@ const EyeFly = () => {
         document.getElementById(`section-${index}`)
       );
       
-      const scrollPosition = window.scrollY + 200;
+      const scrollPosition = window.scrollY + 100;
       const windowHeight = window.innerHeight;
       const documentHeight = document.documentElement.scrollHeight;
       
-      // Check if we're at the bottom of the page
-      if (scrollPosition + windowHeight >= documentHeight - 100) {
+      // Check if we're very close to the bottom of the page
+      if (scrollPosition + windowHeight >= documentHeight - 50) {
         setActiveSection(sections.length - 1); // Set to last section (Skills)
         return;
       }
       
+      // Find the section that's currently in view
       for (let i = sectionElements.length - 1; i >= 0; i--) {
         const element = sectionElements[i];
-        if (element && element.offsetTop <= scrollPosition) {
-          setActiveSection(i);
-          break;
+        if (element) {
+          const elementTop = element.offsetTop;
+          const elementBottom = elementTop + element.offsetHeight;
+          
+          // Check if section is in viewport
+          if (scrollPosition >= elementTop - 150 && scrollPosition < elementBottom - 150) {
+            setActiveSection(i);
+            break;
+          }
         }
       }
     };
 
     window.addEventListener('scroll', handleScroll);
+    handleScroll(); // Run on mount to set initial state
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
