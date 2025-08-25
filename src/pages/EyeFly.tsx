@@ -120,14 +120,14 @@ const EyeFly = () => {
           <h2 className="text-2xl font-semibold mb-6">Industry Gap</h2>
           <div className="space-y-8">
             <div>
-              <h3 className="text-2xl font-semibold mb-4">Inefficiency and Risk</h3>
+              <h3 className="text-xl font-semibold mb-4">Inefficiency and Risk</h3>
               <p className="text-muted-foreground mb-4 leading-relaxed">
                 Traditional SAR methods are slow, dangerous, and resource-intensive. They rely on human teams on foot or in manned aircraft, which limits the area they can cover and puts rescuers at risk.
               </p>
             </div>
 
             <div>
-              <h3 className="text-2xl font-semibold mb-4">Lack of Real-Time Data</h3>
+              <h3 className="text-xl font-semibold mb-4">Lack of Real-Time Data</h3>
               <p className="text-muted-foreground mb-4 leading-relaxed">
                 Existing methods often lack a centralized, real-time system to monitor the search area, share live updates, or coordinate multiple teams. This creates communication gaps and delays.
               </p>
@@ -180,25 +180,37 @@ const EyeFly = () => {
               
             <h3 className="text-xl font-semibold mb-6">Key Features</h3>
             <div className="grid md:grid-cols-2 gap-6">
-              <div className="bg-secondary/10 border border-secondary/20 rounded-lg p-6">
+              <div className="text-center">
+                <div className="w-12 h-12 bg-coral/10 rounded-full flex items-center justify-center mx-auto mb-3">
+                  <span className="text-coral font-bold">1</span>
+                </div>
                 <h4 className="font-semibold mb-3">Autonomous Flight and Navigation</h4>
                 <p className="text-muted-foreground text-sm">
                   The drone can operate in GPS-denied environments using a visual inertial odometry (VIO) system. It supports waypoint navigation for pre-planned missions.
                 </p>
               </div>
-              <div className="bg-secondary/10 border border-secondary/20 rounded-lg p-6">
+              <div className="text-center">
+                <div className="w-12 h-12 bg-coral/10 rounded-full flex items-center justify-center mx-auto mb-3">
+                  <span className="text-coral font-bold">2</span>
+                </div>
                 <h4 className="font-semibold mb-3">Real-Time Data Transmission</h4>
                 <p className="text-muted-foreground text-sm">
                   It maintains a stable, long-range connection via an LTE module and WiFi, transmitting live video feeds, telemetry, and location data back to ground control.
                 </p>
               </div>
-              <div className="bg-secondary/10 border border-secondary/20 rounded-lg p-6">
+              <div className="text-center">
+                <div className="w-12 h-12 bg-coral/10 rounded-full flex items-center justify-center mx-auto mb-3">
+                  <span className="text-coral font-bold">3</span>
+                </div>
                 <h4 className="font-semibold mb-3">Care Package Delivery</h4>
                 <p className="text-muted-foreground text-sm">
                   The drone can carry and deliver a small care package with essential supplies to a stranded individual.
                 </p>
               </div>
-              <div className="bg-secondary/10 border border-secondary/20 rounded-lg p-6">
+              <div className="text-center">
+                <div className="w-12 h-12 bg-coral/10 rounded-full flex items-center justify-center mx-auto mb-3">
+                  <span className="text-coral font-bold">4</span>
+                </div>
                 <h4 className="font-semibold mb-3">Safe Landing</h4>
                 <p className="text-muted-foreground text-sm">
                   Drone is able to safely land itself from at least 2m above ground if communication is lost.
@@ -210,7 +222,7 @@ const EyeFly = () => {
               <img 
                 src="/lovable-uploads/5406ffa1-36eb-48f8-9c91-e25703986d51.png" 
                 alt="Final Design of EyeFly drone"
-                className="mx-auto rounded-lg shadow-lg max-w-2xl w-full"
+                className="mx-auto rounded-lg shadow-lg max-w-xl w-4/5"
               />
               <p className="text-muted-foreground mt-4 text-lg">Final Design of EyeFly</p>
             </div>
@@ -239,7 +251,7 @@ const EyeFly = () => {
               <img 
                 src="/lovable-uploads/33e4f992-031d-4d49-8bc5-d474fcf71e08.png" 
                 alt="Outdoor Object Recognition system interface"
-                className="mx-auto rounded-lg shadow-lg max-w-3xl w-3/4"
+                className="mx-auto rounded-lg shadow-lg max-w-2xl w-3/5"
               />
               <p className="text-muted-foreground mt-4 text-lg">Outdoor Object Recognition</p>
             </div>
