@@ -236,7 +236,7 @@ const EyeFly = () => {
                 alt="Final Design of EyeFly drone"
                 className="mx-auto rounded-lg shadow-lg max-w-xl w-4/5"
               />
-              <p className="text-muted-foreground mt-4 text-lg">Final Design of EyeFly</p>
+              <p className="text-muted-foreground mt-4 text-sm">Final Design of EyeFly</p>
             </div>
           </div>
         </section>
@@ -265,7 +265,7 @@ const EyeFly = () => {
                 alt="Outdoor Object Recognition system interface"
                 className="mx-auto rounded-lg shadow-lg max-w-2xl w-3/5"
               />
-              <p className="text-muted-foreground mt-4 text-lg">Outdoor Object Recognition</p>
+              <p className="text-muted-foreground mt-4 text-sm">Outdoor Object Recognition</p>
             </div>
           </div>
         </section>
@@ -294,7 +294,7 @@ const EyeFly = () => {
                 alt="Screenshot from the User Interface"
                 className="mx-auto rounded-lg shadow-lg max-w-3xl w-3/4"
               />
-              <p className="text-muted-foreground mt-4 text-lg">Screenshot from the User Interface</p>
+              <p className="text-muted-foreground mt-4 text-sm">Screenshot from the User Interface</p>
             </div>
           </div>
         </section>

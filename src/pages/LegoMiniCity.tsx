@@ -366,57 +366,35 @@ const LegoMiniCity = () => {
         {/* Skills */}
         <section id="section-9" className="mb-16 scroll-mt-24">
           <h2 className="text-2xl font-semibold mb-6">Skills</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <div className="bg-card border border-border rounded-lg p-6">
-              <h3 className="font-semibold mb-3">Product Management</h3>
-              <div className="flex flex-wrap gap-2">
-                <span className="px-3 py-1 bg-secondary text-secondary-foreground rounded-full text-xs">
-                  Product Strategy
-                </span>
-                <span className="px-3 py-1 bg-secondary text-secondary-foreground rounded-full text-xs">
-                  Market Research
-                </span>
-                <span className="px-3 py-1 bg-secondary text-secondary-foreground rounded-full text-xs">
-                  GTM Strategy
-                </span>
-                <span className="px-3 py-1 bg-secondary text-secondary-foreground rounded-full text-xs">
-                  PRD
-                </span>
-                <span className="px-3 py-1 bg-secondary text-secondary-foreground rounded-full text-xs">
-                  Strategic Planning
-                </span>
-                <span className="px-3 py-1 bg-secondary text-secondary-foreground rounded-full text-xs">
-                  User Research
-                </span>
-                <span className="px-3 py-1 bg-secondary text-secondary-foreground rounded-full text-xs">
-                  Data-Informed Decision Making
-                </span>
+          <p className="text-muted-foreground mb-8 leading-relaxed">
+            Key competencies and tools demonstrated throughout this project:
+          </p>
+          
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div className="bg-card border border-border rounded-lg p-6 text-center">
+              <h3 className="text-lg font-semibold mb-4">Product Strategy</h3>
+              <div className="flex flex-wrap gap-2 justify-center">
+                <span className="bg-coral/10 text-coral px-3 py-1 rounded-full text-sm">Product Strategy</span>
+                <span className="bg-coral/10 text-coral px-3 py-1 rounded-full text-sm">Market Research</span>
+                <span className="bg-coral/10 text-coral px-3 py-1 rounded-full text-sm">GTM Strategy</span>
               </div>
             </div>
-            <div className="bg-card border border-border rounded-lg p-6">
-              <h3 className="font-semibold mb-3">Design & Development</h3>
-              <div className="flex flex-wrap gap-2">
-                <span className="px-3 py-1 bg-secondary text-secondary-foreground rounded-full text-xs">
-                  UX Design
-                </span>
-                <span className="px-3 py-1 bg-secondary text-secondary-foreground rounded-full text-xs">
-                  Prototyping
-                </span>
-                <span className="px-3 py-1 bg-secondary text-secondary-foreground rounded-full text-xs">
-                  User Research
-                </span>
-                <span className="px-3 py-1 bg-secondary text-secondary-foreground rounded-full text-xs">
-                  Agile Development
-                </span>
-                <span className="px-3 py-1 bg-secondary text-secondary-foreground rounded-full text-xs">
-                  Figma
-                </span>
-                <span className="px-3 py-1 bg-secondary text-secondary-foreground rounded-full text-xs">
-                  BrickLink
-                </span>
-                <span className="px-3 py-1 bg-secondary text-secondary-foreground rounded-full text-xs">
-                  MS Paint (yes some people still use it)
-                </span>
+
+            <div className="bg-card border border-border rounded-lg p-6 text-center">
+              <h3 className="text-lg font-semibold mb-4">Product Management</h3>
+              <div className="flex flex-wrap gap-2 justify-center">
+                <span className="bg-coral/10 text-coral px-3 py-1 rounded-full text-sm">PRD</span>
+                <span className="bg-coral/10 text-coral px-3 py-1 rounded-full text-sm">Strategic Planning</span>
+                <span className="bg-coral/10 text-coral px-3 py-1 rounded-full text-sm">User Research</span>
+              </div>
+            </div>
+
+            <div className="bg-card border border-border rounded-lg p-6 text-center">
+              <h3 className="text-lg font-semibold mb-4">Design & Development</h3>
+              <div className="flex flex-wrap gap-2 justify-center">
+                <span className="bg-coral/10 text-coral px-3 py-1 rounded-full text-sm">UX Design</span>
+                <span className="bg-coral/10 text-coral px-3 py-1 rounded-full text-sm">Prototyping</span>
+                <span className="bg-coral/10 text-coral px-3 py-1 rounded-full text-sm">Figma</span>
               </div>
             </div>
           </div>
