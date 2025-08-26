@@ -89,6 +89,16 @@ const EyeFly = () => {
           </p>
         </div>
 
+        {/* Hero Image */}
+        <div className="text-center mb-16">
+          <img 
+            src="/lovable-uploads/2e5731f5-0e75-47b0-9f0d-85dfd5de8a92.png" 
+            alt="EyeFly drone in flight"
+            className="mx-auto rounded-lg shadow-lg max-w-lg w-1/2"
+          />
+          <p className="text-muted-foreground mt-4 text-sm">EyeFly</p>
+        </div>
+
         {/* High-Level Description */}
         <section id="section-0" className="mb-16 scroll-mt-24">
           <h2 className="text-2xl font-semibold mb-6">High-Level Description</h2>
