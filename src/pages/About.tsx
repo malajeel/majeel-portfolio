@@ -11,7 +11,7 @@ const About = () => {
   const experiences = [
     "WalterFedy - Product development and technical solutions",
     "EyeFly - Drone technology for search and rescue operations", 
-    "Arcadis IBI Group - Infrastructure and urban planning projects",
+    "Arcadis IBI Group - Integrated design and technology solutions for infrastructure and software",
     "TTC - Public transportation systems improvement",
     "FleetCarma - Fleet management and automotive technology",
     "University of Waterloo Alternative Fuels Team - Sustainable transportation research"

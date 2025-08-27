@@ -94,7 +94,7 @@ const EyeFly = () => {
           <img 
             src="/lovable-uploads/2e5731f5-0e75-47b0-9f0d-85dfd5de8a92.png" 
             alt="EyeFly drone in flight"
-            className="mx-auto rounded-lg shadow-lg max-w-lg w-1/2"
+            className="mx-auto rounded-lg shadow-lg max-w-lg w-3/5"
           />
           <p className="text-muted-foreground mt-4 text-sm">EyeFly</p>
         </div>
