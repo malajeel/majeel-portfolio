@@ -16,13 +16,12 @@
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:site" content="@lovable_dev" />
     <meta name="twitter:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
-  </head>
 
-  <body>
-    <div id="root"></div>
     <script type="text/javascript">
       // Single Page Apps for GitHub Pages
-      // This script converts query string redirects back to proper URLs
+      // https://github.com/rafgraph/spa-github-pages
+      // This script checks to see if a redirect is present in the query string,
+      // converts it back into the correct url and adds it to the browser's history using window.history.replaceState(...)
       (function(l) {
         if (l.search[1] === '/' ) {
           var decoded = l.search.slice(1).split('&').map(function(s) { 
@@ -34,6 +33,10 @@
         }
       }(window.location))
     </script>
+  </head>
+
+  <body>
+    <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>
