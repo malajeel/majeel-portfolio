@@ -366,9 +366,6 @@ const LegoMiniCity = () => {
         {/* Skills */}
         <section id="section-9" className="mb-16 scroll-mt-24">
           <h2 className="text-2xl font-semibold mb-6">Skills</h2>
-          <p className="text-muted-foreground mb-8 leading-relaxed">
-            Key competencies and tools demonstrated throughout this project:
-          </p>
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div className="bg-card border border-border rounded-lg p-6 text-center">

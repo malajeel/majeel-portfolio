@@ -15,7 +15,8 @@ const MarketplaceMakers = () => {
     "The Product: Marketplace Makers",
     "Design & User Flow",
     "Success Metrics",
-    "Next Steps"
+    "Next Steps",
+    "Skills"
   ];
 
   const scrollToSection = (index: number) => {
@@ -359,6 +360,34 @@ const MarketplaceMakers = () => {
                 <li>• <strong>Logistics & Fulfillment Partnerships:</strong> Explore partnerships with third-party logistics providers to offer discounted shipping rates and simplify the fulfillment process for creators.</li>
                 <li>• <strong>Global Expansion:</strong> Scale the feature to international markets, ensuring a localized experience that accounts for different payment methods, shipping preferences, and regional craft cultures.</li>
               </ul>
+            </div>
+          </div>
+        </section>
+
+        {/* Skills */}
+        <section id="section-8" className="mb-16 scroll-mt-24">
+          <h2 className="text-2xl font-semibold mb-6">Skills</h2>
+          
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div className="bg-card border border-border rounded-lg p-6 text-center">
+              <h3 className="text-lg font-semibold mb-4">Product Management</h3>
+              <div className="flex flex-wrap gap-2 justify-center">
+                <span className="bg-coral/10 text-coral px-3 py-1 rounded-full text-sm">Product Strategy</span>
+                <span className="bg-coral/10 text-coral px-3 py-1 rounded-full text-sm">Roadmap & Feature Prioritization</span>
+                <span className="bg-coral/10 text-coral px-3 py-1 rounded-full text-sm">Success Metrics Definition</span>
+                <span className="bg-coral/10 text-coral px-3 py-1 rounded-full text-sm">Market Research</span>
+                <span className="bg-coral/10 text-coral px-3 py-1 rounded-full text-sm">Competitive Benchmarking</span>
+                <span className="bg-coral/10 text-coral px-3 py-1 rounded-full text-sm">Data-Driven Decision Making</span>
+              </div>
+            </div>
+
+            <div className="bg-card border border-border rounded-lg p-6 text-center">
+              <h3 className="text-lg font-semibold mb-4">Design & Research</h3>
+              <div className="flex flex-wrap gap-2 justify-center">
+                <span className="bg-coral/10 text-coral px-3 py-1 rounded-full text-sm">UX & User Journey Mapping</span>
+                <span className="bg-coral/10 text-coral px-3 py-1 rounded-full text-sm">Wireframing</span>
+                <span className="bg-coral/10 text-coral px-3 py-1 rounded-full text-sm">Figma</span>
+              </div>
             </div>
           </div>
         </section>
