@@ -227,7 +227,7 @@ const MarketplaceMakers = () => {
                   src="/lovable-uploads/marketplace-makers-mainpage.png" 
                   alt="Marketplace Makers Main Page"
                   className="w-full max-w-3xl mx-auto rounded-lg border"
-                  style={{ width: '70%' }}
+                  style={{ width: '85%' }}
                 />
                 <p className="text-sm text-muted-foreground italic mt-2">Marketplace Makers Main Page</p>
               </div>
@@ -244,7 +244,7 @@ const MarketplaceMakers = () => {
                     src="/lovable-uploads/marketplace-makers-bracelet-productpage.png" 
                     alt="Local Pick Up Only Product Details"
                     className="w-full max-w-3xl mx-auto rounded-lg border"
-                    style={{ width: '70%' }}
+                    style={{ width: '85%' }}
                   />
                   <p className="text-sm text-muted-foreground italic mt-2">Local Pick Up Only Product Details</p>
                 </div>
@@ -253,7 +253,7 @@ const MarketplaceMakers = () => {
                     src="/lovable-uploads/marketplace-makers-scarf-productpage.png" 
                     alt="Shippable Product Details"
                     className="w-full max-w-3xl mx-auto rounded-lg border"
-                    style={{ width: '70%' }}
+                    style={{ width: '85%' }}
                   />
                   <p className="text-sm text-muted-foreground italic mt-2">Shippable Product Details</p>
                 </div>
@@ -270,7 +270,7 @@ const MarketplaceMakers = () => {
                   src="/lovable-uploads/marketplace-makers-scarf-cart.png" 
                   alt="Shopping Cart"
                   className="w-full max-w-3xl mx-auto rounded-lg border"
-                  style={{ width: '70%' }}
+                  style={{ width: '85%' }}
                 />
                 <p className="text-sm text-muted-foreground italic mt-2">Shopping Cart</p>
               </div>
@@ -282,7 +282,7 @@ const MarketplaceMakers = () => {
                   src="/lovable-uploads/marketplace-makers-scarf-checkout.png" 
                   alt="Checkout Page for Shippable Product"
                   className="w-full max-w-3xl mx-auto rounded-lg border"
-                  style={{ width: '70%' }}
+                  style={{ width: '85%' }}
                 />
                 <p className="text-sm text-muted-foreground italic mt-2">Checkout Page for Shippable Product</p>
               </div>
@@ -294,7 +294,7 @@ const MarketplaceMakers = () => {
                   src="/lovable-uploads/marketplace-makers-bracelet-checkout.png" 
                   alt="Checkout Page for a Pick Up Only Product"
                   className="w-full max-w-3xl mx-auto rounded-lg border"
-                  style={{ width: '70%' }}
+                  style={{ width: '85%' }}
                 />
                 <p className="text-sm text-muted-foreground italic mt-2">Checkout Page for a Pick Up Only Product</p>
               </div>
