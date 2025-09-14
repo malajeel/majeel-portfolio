@@ -377,6 +377,9 @@ const MarketplaceMakers = () => {
               <span className="bg-coral/10 text-coral px-3 py-1 rounded-full text-sm">Competitive Benchmarking</span>
               <span className="bg-coral/10 text-coral px-3 py-1 rounded-full text-sm">Data-Driven Decision Making</span>
               <span className="bg-coral/10 text-coral px-3 py-1 rounded-full text-sm">UX & User Journey Mapping</span>
+              <span className="bg-coral/10 text-coral px-3 py-1 rounded-full text-sm">User-Centered Design Thinking</span>
+              <span className="bg-coral/10 text-coral px-3 py-1 rounded-full text-sm">Revenue & Monetization Strategy</span>
+              <span className="bg-coral/10 text-coral px-3 py-1 rounded-full text-sm">User Research</span>
               <span className="bg-coral/10 text-coral px-3 py-1 rounded-full text-sm">Wireframing</span>
               <span className="bg-coral/10 text-coral px-3 py-1 rounded-full text-sm">Figma</span>
             </div>
