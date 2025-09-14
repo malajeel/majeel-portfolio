@@ -30,7 +30,7 @@ const PortfolioProgress = ({ sections, activeSection, onSectionClick }: Portfoli
               
               {/* Section title */}
               <span 
-                className={`ml-4 text-sm transition-all duration-300 whitespace-nowrap ${
+                className={`ml-4 text-sm transition-all duration-300 max-w-[200px] leading-tight ${
                   index === activeSection 
                     ? 'font-semibold text-foreground' 
                     : 'text-muted-foreground group-hover:text-foreground'
