@@ -309,19 +309,19 @@ const MarketplaceMakers = () => {
             <div className="mb-6">
               <h3 className="text-xl font-semibold mb-4 text-foreground">Primary Metrics (Engagement & Business):</h3>
               <ul className="space-y-2 text-muted-foreground ml-6">
-                <li><strong>DAU on the Marketplace Makers Feed:</strong> Our North Star metric, measuring daily engagement with the new feature.</li>
-                <li><strong>Conversion Rate:</strong> The percentage of users who make a purchase after viewing an item in the Marketplace Makers feed.</li>
-                <li><strong>Gross Merchandise Value (GMV) of Artisanal Goods:</strong> Tracking the total sales volume of unique and handmade items to measure market penetration.</li>
-                <li><strong>Average Order Value (AOV):</strong> Measuring the average amount spent per transaction, which is anticipated to be higher for curated, unique goods.</li>
+                <li>• <strong>DAU on the Marketplace Makers Feed:</strong> Our North Star metric, measuring daily engagement with the new feature.</li>
+                <li>• <strong>Conversion Rate:</strong> The percentage of users who make a purchase after viewing an item in the Marketplace Makers feed.</li>
+                <li>• <strong>Gross Merchandise Value (GMV) of Artisanal Goods:</strong> Tracking the total sales volume of unique and handmade items to measure market penetration.</li>
+                <li>• <strong>Average Order Value (AOV):</strong> Measuring the average amount spent per transaction, which is anticipated to be higher for curated, unique goods.</li>
               </ul>
             </div>
 
             <div>
               <h3 className="text-xl font-semibold mb-4 text-foreground">Ecosystem Impact Metrics:</h3>
               <ul className="space-y-2 text-muted-foreground ml-6">
-                <li><strong>Meta Pay Adoption Rate:</strong> The increase in the number of new users who complete a transaction using Meta Pay.</li>
-                <li><strong>Messenger Commerce Conversations:</strong> The growth in the number of unique conversations initiated between buyers and sellers.</li>
-                <li><strong>Facebook Profile Engagement:</strong> Increased DAU on the core Facebook app, driven by the requirement for users to have a profile to engage in commerce.</li>
+                <li>• <strong>Meta Pay Adoption Rate:</strong> The increase in the number of new users who complete a transaction using Meta Pay.</li>
+                <li>• <strong>Messenger Commerce Conversations:</strong> The growth in the number of unique conversations initiated between buyers and sellers.</li>
+                <li>• <strong>Facebook Profile Engagement:</strong> Increased DAU on the core Facebook app, driven by the requirement for users to have a profile to engage in commerce.</li>
               </ul>
             </div>
           </div>
@@ -338,26 +338,26 @@ const MarketplaceMakers = () => {
             <div className="mb-6">
               <h3 className="text-xl font-semibold mb-4 text-foreground">Phase 2: Creator Empowerment & Community Building:</h3>
               <ul className="space-y-2 text-muted-foreground ml-6">
-                <li><strong>Creator Profiles:</strong> Launch dedicated mini-storefronts where makers can build their brand, showcase all their products, and tell their story. This would foster repeat buyers and brand loyalty.</li>
-                <li><strong>Review & Rating System:</strong> Introduce a specialized review system for both products and creators to build trust and social proof within the community.</li>
-                <li><strong>Creator Analytics Dashboard:</strong> Provide makers with data on their shop performance, including views, clicks, conversions, and customer demographics, empowering them to optimize their listings and marketing efforts.</li>
+                <li>• <strong>Creator Profiles:</strong> Launch dedicated mini-storefronts where makers can build their brand, showcase all their products, and tell their story. This would foster repeat buyers and brand loyalty.</li>
+                <li>• <strong>Review & Rating System:</strong> Introduce a specialized review system for both products and creators to build trust and social proof within the community.</li>
+                <li>• <strong>Creator Analytics Dashboard:</strong> Provide makers with data on their shop performance, including views, clicks, conversions, and customer demographics, empowering them to optimize their listings and marketing efforts.</li>
               </ul>
             </div>
 
             <div className="mb-6">
               <h3 className="text-xl font-semibold mb-4 text-foreground">Phase 3: Discovery & Personalization:</h3>
               <ul className="space-y-2 text-muted-foreground ml-6">
-                <li><strong>Advanced AI Curation:</strong> Enhance the algorithm to offer highly personalized product recommendations based on a user's browsing history, interests, and past purchases.</li>
-                <li><strong>Custom Order Functionality:</strong> Add in-app messaging tools that allow buyers to easily request custom-made items from creators, opening up a new revenue stream and strengthening the buyer-seller relationship.</li>
-                <li><strong>In-App Marketing Tools:</strong> Enable creators to run targeted ad campaigns and promotions within the Facebook ecosystem to drive traffic to their Marketplace storefront.</li>
+                <li>• <strong>Advanced AI Curation:</strong> Enhance the algorithm to offer highly personalized product recommendations based on a user's browsing history, interests, and past purchases.</li>
+                <li>• <strong>Custom Order Functionality:</strong> Add in-app messaging tools that allow buyers to easily request custom-made items from creators, opening up a new revenue stream and strengthening the buyer-seller relationship.</li>
+                <li>• <strong>In-App Marketing Tools:</strong> Enable creators to run targeted ad campaigns and promotions within the Facebook ecosystem to drive traffic to their Marketplace storefront.</li>
               </ul>
             </div>
 
             <div>
               <h3 className="text-xl font-semibold mb-4 text-foreground">Phase 4: Scalability & Expansion:</h3>
               <ul className="space-y-2 text-muted-foreground ml-6">
-                <li><strong>Logistics & Fulfillment Partnerships:</strong> Explore partnerships with third-party logistics providers to offer discounted shipping rates and simplify the fulfillment process for creators.</li>
-                <li><strong>Global Expansion:</strong> Scale the feature to international markets, ensuring a localized experience that accounts for different payment methods, shipping preferences, and regional craft cultures.</li>
+                <li>• <strong>Logistics & Fulfillment Partnerships:</strong> Explore partnerships with third-party logistics providers to offer discounted shipping rates and simplify the fulfillment process for creators.</li>
+                <li>• <strong>Global Expansion:</strong> Scale the feature to international markets, ensuring a localized experience that accounts for different payment methods, shipping preferences, and regional craft cultures.</li>
               </ul>
             </div>
           </div>
