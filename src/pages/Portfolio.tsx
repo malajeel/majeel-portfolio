@@ -41,6 +41,30 @@ const Portfolio = () => {
             </div>
           </div>
 
+          {/* Facebook Marketplace Makers Project */}
+          <div className="group border border-border rounded-lg overflow-hidden hover:shadow-lg transition-all duration-300 animate-slide-up">
+            <div className="p-8">
+              <div className="flex flex-col md:flex-row md:items-center md:justify-between">
+                <div className="flex-1">
+                  <h3 className="text-2xl font-semibold mb-3 group-hover:text-coral transition-colors">
+                    Facebook Marketplace Makers
+                  </h3>
+                  <p className="text-muted-foreground mb-4 leading-relaxed">
+                    A new commerce experience is proposed for Facebook Marketplace to overcome its reputation as a transactional platform for commodity goods. The Marketplace Makers feature is designed to connect individuals who create unique, handmade products with an audience eager to discover and purchase them. This initiative will transform the platform into a curated marketplace, strengthening its role in the broader commerce ecosystem.
+                  </p>
+                </div>
+                <div className="md:ml-8">
+                  <Link to="/portfolio/marketplace-makers">
+                    <Button variant="outline" className="group/btn">
+                      View Project
+                      <ArrowRight className="ml-2 h-4 w-4 group-hover/btn:translate-x-1 transition-transform" />
+                    </Button>
+                  </Link>
+                </div>
+              </div>
+            </div>
+          </div>
+
           {/* EyeFly Project */}
           <div className="group border border-border rounded-lg overflow-hidden hover:shadow-lg transition-all duration-300 animate-slide-up">
             <div className="p-8">

@@ -8,6 +8,7 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Portfolio from "./pages/Portfolio";
 import LegoMiniCity from "./pages/LegoMiniCity";
+import MarketplaceMakers from "./pages/MarketplaceMakers";
 import EyeFly from "./pages/EyeFly";
 import Contact from "./pages/Contact";
 import NotFound from "./pages/NotFound";
@@ -26,6 +27,7 @@ const App = () => (
             <Route path="/about" element={<About />} />
             <Route path="/portfolio" element={<Portfolio />} />
             <Route path="/portfolio/lego-mini-city" element={<LegoMiniCity />} />
+            <Route path="/portfolio/marketplace-makers" element={<MarketplaceMakers />} />
             <Route path="/portfolio/eyefly" element={<EyeFly />} />
             <Route path="/contact" element={<Contact />} />
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
