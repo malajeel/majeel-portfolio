@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { ArrowLeft, ExternalLink } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import PortfolioProgress from "@/components/PortfolioProgress";
+import ImageZoom from "@/components/ImageZoom";
 
 const MarketplaceMakers = () => {
   const [activeSection, setActiveSection] = useState(0);
@@ -223,7 +224,7 @@ const MarketplaceMakers = () => {
                 The main Marketplace Makers page is designed for visual appeal and easy navigation, showcasing high-quality product photos and highlighting featured creators. It also includes filters for pickup vs. shipping and categories to tailor the experience to the user's needs.
               </p>
               <div className="text-center mb-4">
-                <img 
+                <ImageZoom 
                   src="/lovable-uploads/marketplace-makers-mainpage.png" 
                   alt="Marketplace Makers Main Page"
                   className="w-full max-w-3xl mx-auto rounded-lg border"
@@ -240,7 +241,7 @@ const MarketplaceMakers = () => {
               </p>
               <div className="space-y-6">
                 <div className="text-center">
-                  <img 
+                  <ImageZoom 
                     src="/lovable-uploads/marketplace-makers-bracelet-productpage.png" 
                     alt="Local Pick Up Only Product Details"
                     className="w-full max-w-3xl mx-auto rounded-lg border"
@@ -249,7 +250,7 @@ const MarketplaceMakers = () => {
                   <p className="text-sm text-muted-foreground italic mt-2">Local Pick Up Only Product Details</p>
                 </div>
                 <div className="text-center">
-                  <img 
+                  <ImageZoom 
                     src="/lovable-uploads/marketplace-makers-scarf-productpage.png" 
                     alt="Shippable Product Details"
                     className="w-full max-w-3xl mx-auto rounded-lg border"
@@ -266,7 +267,7 @@ const MarketplaceMakers = () => {
                 The checkout process is designed for simplicity and security. A unified shopping cart allows users to manage both shippable and local pickup items.
               </p>
               <div className="text-center mb-6">
-                <img 
+                <ImageZoom 
                   src="/lovable-uploads/marketplace-makers-scarf-cart.png" 
                   alt="Shopping Cart"
                   className="w-full max-w-3xl mx-auto rounded-lg border"
@@ -278,7 +279,7 @@ const MarketplaceMakers = () => {
                 From there, the checkout pages are strategically designed based on the fulfillment method. For both shippable and local pickup, Meta Pay is the default, pre-selected payment option. This design choice provides a one-click checkout experience and encourages the adoption of Meta Pay. However, for flexibility, a secondary option allows users to pay with a credit or debit card.
               </p>
               <div className="text-center mb-6">
-                <img 
+                <ImageZoom 
                   src="/lovable-uploads/marketplace-makers-scarf-checkout.png" 
                   alt="Checkout Page for Shippable Product"
                   className="w-full max-w-3xl mx-auto rounded-lg border"
@@ -290,7 +291,7 @@ const MarketplaceMakers = () => {
                 For local pickup items, the checkout flow also includes additional options for an in-person transfer or cash payment, acknowledging the unique nature of these transactions. This distinction in the checkout flow ensures a smooth and tailored experience, regardless of how the buyer chooses to receive their item.
               </p>
               <div className="text-center">
-                <img 
+                <ImageZoom 
                   src="/lovable-uploads/marketplace-makers-bracelet-checkout.png" 
                   alt="Checkout Page for a Pick Up Only Product"
                   className="w-full max-w-3xl mx-auto rounded-lg border"
