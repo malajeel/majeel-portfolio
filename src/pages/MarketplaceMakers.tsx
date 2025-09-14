@@ -116,9 +116,9 @@ const MarketplaceMakers = () => {
               <li>
                 <strong className="text-foreground">Strengthen the Meta Ecosystem:</strong> The feature's success is designed to have a direct, positive impact on other Meta products:
                 <ul className="ml-6 mt-2 space-y-2">
-                  <li><strong>Meta Pay:</strong> Increases the number of users who link their payment information and complete a transaction.</li>
-                  <li><strong>Messenger:</strong> Drives a significant increase in business-to-consumer (B2C) communication as buyers and sellers connect.</li>
-                  <li><strong>Facebook Platform:</strong> Boosts overall DAU and user retention by offering a new, compelling reason to engage with the core platform and its commerce features.</li>
+                  <li>• <strong>Meta Pay:</strong> Increases the number of users who link their payment information and complete a transaction.</li>
+                  <li>• <strong>Messenger:</strong> Drives a significant increase in business-to-consumer (B2C) communication as buyers and sellers connect.</li>
+                  <li>• <strong>Facebook Platform:</strong> Boosts overall DAU and user retention by offering a new, compelling reason to engage with the core platform and its commerce features.</li>
                 </ul>
               </li>
               <li>
@@ -145,9 +145,9 @@ const MarketplaceMakers = () => {
                 <div>
                   <strong className="text-foreground">What they need:</strong>
                   <ul className="ml-6 mt-2 space-y-2">
-                    <li><strong>A built-in audience:</strong> They need a platform with a large, engaged user base to find customers without having to spend heavily on marketing and advertising.</li>
-                    <li><strong>Simplified tools:</strong> They require user-friendly tools to easily list products, manage inventory, and handle transactions, allowing them to focus on their craft.</li>
-                    <li><strong>Brand storytelling:</strong> They want a way to share the unique story behind their products, from the materials and process to the inspiration, to set themselves apart from mass-produced goods.</li>
+                    <li>• <strong>A built-in audience:</strong> They need a platform with a large, engaged user base to find customers without having to spend heavily on marketing and advertising.</li>
+                    <li>• <strong>Simplified tools:</strong> They require user-friendly tools to easily list products, manage inventory, and handle transactions, allowing them to focus on their craft.</li>
+                    <li>• <strong>Brand storytelling:</strong> They want a way to share the unique story behind their products, from the materials and process to the inspiration, to set themselves apart from mass-produced goods.</li>
                   </ul>
                 </div>
                 <p>
@@ -165,9 +165,9 @@ const MarketplaceMakers = () => {
                 <div>
                   <strong className="text-foreground">What they need:</strong>
                   <ul className="ml-6 mt-2 space-y-2">
-                    <li><strong>A curated experience:</strong> They are tired of sifting through low-quality items. They want a trusted and established space to discover unique and authentic handmade products.</li>
-                    <li><strong>Ethical shopping:</strong> They seek transparency and want to support independent artists and small businesses. They are willing to pay a premium for items that align with their values of sustainability and authenticity.</li>
-                    <li><strong>Seamless interaction:</strong> They value direct connection and communication with the creator to ask questions or request custom items.</li>
+                    <li>• <strong>A curated experience:</strong> They are tired of sifting through low-quality items. They want a trusted and established space to discover unique and authentic handmade products.</li>
+                    <li>• <strong>Ethical shopping:</strong> They seek transparency and want to support independent artists and small businesses. They are willing to pay a premium for items that align with their values of sustainability and authenticity.</li>
+                    <li>• <strong>Seamless interaction:</strong> They value direct connection and communication with the creator to ask questions or request custom items.</li>
                   </ul>
                 </div>
                 <p>
