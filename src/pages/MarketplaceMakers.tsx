@@ -11,8 +11,8 @@ const MarketplaceMakers = () => {
     "Project Overview",
     "Market Opportunity", 
     "Strategic Impact",
-    "Target Audience &\nValue Proposition",
-    "The Product:\nMarketplace Makers",
+    "Target Audience & Value Proposition",
+    "The Product: Marketplace Makers",
     "Design & User Flow",
     "Success Metrics",
     "Next Steps"
@@ -114,16 +114,12 @@ const MarketplaceMakers = () => {
                 <strong className="text-foreground">Diversify Revenue Streams:</strong> Capture a share of the high-value artisanal market, which typically has higher Average Order Values (AOV).
               </li>
               <li>
-                <strong className="text-foreground">Strengthen the Meta Ecosystem:</strong> The feature's success is designed to have a direct, positive impact on other Meta products.
-              </li>
-              <li>
-                <strong className="text-foreground">Meta Pay:</strong> Increases the number of users who link their payment information and complete a transaction.
-              </li>
-              <li>
-                <strong className="text-foreground">Messenger:</strong> Drives a significant increase in business-to-consumer (B2C) communication as buyers and sellers connect.
-              </li>
-              <li>
-                <strong className="text-foreground">Facebook Platform:</strong> Boosts overall DAU and user retention by offering a new, compelling reason to engage with the core platform and its commerce features.
+                <strong className="text-foreground">Strengthen the Meta Ecosystem:</strong> The feature's success is designed to have a direct, positive impact on other Meta products:
+                <ul className="ml-6 mt-2 space-y-2">
+                  <li><strong>Meta Pay:</strong> Increases the number of users who link their payment information and complete a transaction.</li>
+                  <li><strong>Messenger:</strong> Drives a significant increase in business-to-consumer (B2C) communication as buyers and sellers connect.</li>
+                  <li><strong>Facebook Platform:</strong> Boosts overall DAU and user retention by offering a new, compelling reason to engage with the core platform and its commerce features.</li>
+                </ul>
               </li>
               <li>
                 <strong className="text-foreground">Enhance Brand Perception:</strong> Shift the Marketplace brand from a "secondhand" feel to a trusted, high-quality destination.
