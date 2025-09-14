@@ -49,19 +49,19 @@ const MarketplaceMakers = () => {
   }, [sections]);
 
   return (
-    <div className="min-h-screen py-20 px-6 sm:px-8 relative">
-      <div className="max-w-4xl mx-auto pl-0 lg:pl-80">
-        <PortfolioProgress 
-          sections={sections}
-          activeSection={activeSection}
-          onSectionClick={scrollToSection}
-        />
-        
+    <div className="min-h-screen py-20 px-6 sm:px-8 lg:pl-48">
+      <PortfolioProgress 
+        sections={sections}
+        activeSection={activeSection}
+        onSectionClick={scrollToSection}
+      />
+      
+      <div className="max-w-4xl mx-auto">
         {/* Header */}
         <div className="mb-16">
           <Link 
             to="/portfolio" 
-            className="inline-flex items-center text-muted-foreground hover:text-coral transition-colors mb-8"
+            className="inline-flex items-center text-coral hover:text-coral/80 transition-colors mb-6 font-bold"
           >
             <ArrowLeft className="mr-2 h-4 w-4" />
             Back to Portfolio
@@ -71,42 +71,42 @@ const MarketplaceMakers = () => {
         </div>
 
         {/* Project Overview */}
-        <section id="section-0" className="mb-20">
-          <h2 className="text-3xl font-semibold mb-8 text-coral">Project Overview</h2>
-          <div className="space-y-6 text-body-large leading-relaxed">
-            <p className="text-muted-foreground">
+        <section id="section-0" className="mb-16 scroll-mt-24">
+          <h2 className="text-2xl font-semibold mb-6">Project Overview</h2>
+          <div className="prose prose-lg max-w-none">
+            <p className="text-muted-foreground leading-relaxed">
               Facebook Marketplace is perceived primarily as a transactional platform for commodity goods, lacking a curated identity for unique, high-quality artisanal products. This limits its ability to attract and retain a valuable segment of creators and buyers who seek out handmade items.
             </p>
-            <p className="text-muted-foreground">
+            <p className="text-muted-foreground leading-relaxed mt-4">
               To address this gap, "Facebook Marketplace Makers" is a new feature designed to transform Facebook Marketplace from a purely transactional tool into a curated, discovery-driven commerce destination for handmade and unique products. It gives creators a platform to showcase their craft, while offering buyers a seamless shopping experience centered on craftsmanship and authenticity.
             </p>
-            <p className="text-muted-foreground">
+            <p className="text-muted-foreground leading-relaxed mt-4">
               Introducing Marketplace Makers will increase user engagement, unlock new revenue streams, and strengthen the broader Meta ecosystem by driving activity across Facebook, Messenger, and Meta Pay.
             </p>
           </div>
         </section>
 
         {/* Market Opportunity */}
-        <section id="section-1" className="mb-20">
-          <h2 className="text-3xl font-semibold mb-8 text-coral">Market Opportunity</h2>
-          <div className="space-y-6 text-body-large leading-relaxed">
-            <p className="text-muted-foreground">
+        <section id="section-1" className="mb-16 scroll-mt-24">
+          <h2 className="text-2xl font-semibold mb-6">Market Opportunity</h2>
+          <div className="prose prose-lg max-w-none">
+            <p className="text-muted-foreground leading-relaxed">
               The design and development of Marketplace Makers are rooted in a clear and compelling market opportunity. The global handmade goods market is a high-growth sector, projected to reach over $1 trillion by 2025, with a compound annual growth rate (CAGR) of 10.15%. This rapid expansion is driven by a fundamental shift in consumer values, with Gen Z and Millennials increasingly prioritizing authenticity, sustainability, and unique products with a story over mass-produced goods.
             </p>
-            <p className="text-muted-foreground">
+            <p className="text-muted-foreground leading-relaxed mt-4">
               While Facebook's core user base tilts toward older users, Marketplace Makers offers an opportunity to engage younger, socially conscious audiences by creating a dedicated space for artisanal goods. This trend has been validated by the success of niche platforms like Etsy, which has a reported ~88.5 million active buyers.
             </p>
-            <p className="text-muted-foreground">
+            <p className="text-muted-foreground leading-relaxed mt-4">
               With over 25 million users already active in crafting and creative groups on Facebook, internal Meta data points to a strong, untapped community ready for a commerce platform centered on handmade and unique products. These insights collectively indicate significant demand and potential for Marketplace Makers to capture a valuable segment of younger, purpose-driven consumers while expanding Facebook Marketplace's overall reach.
             </p>
           </div>
         </section>
 
         {/* Strategic Impact */}
-        <section id="section-2" className="mb-20">
-          <h2 className="text-3xl font-semibold mb-8 text-coral">Strategic Impact</h2>
-          <div className="space-y-6 text-body-large leading-relaxed">
-            <p className="text-muted-foreground mb-4">
+        <section id="section-2" className="mb-16 scroll-mt-24">
+          <h2 className="text-2xl font-semibold mb-6">Strategic Impact</h2>
+          <div className="prose prose-lg max-w-none">
+            <p className="text-muted-foreground leading-relaxed mb-4">
               This product represents a strategic move for Meta to:
             </p>
             <ul className="space-y-4 text-muted-foreground">
@@ -129,14 +129,14 @@ const MarketplaceMakers = () => {
         </section>
 
         {/* Target Audience & Value Proposition */}
-        <section id="section-3" className="mb-20">
-          <h2 className="text-3xl font-semibold mb-8 text-coral">Target Audience & Value Proposition</h2>
-          <div className="space-y-8 text-body-large leading-relaxed">
-            <p className="text-muted-foreground">
+        <section id="section-3" className="mb-16 scroll-mt-24">
+          <h2 className="text-2xl font-semibold mb-6">Target Audience & Value Proposition</h2>
+          <div className="prose prose-lg max-w-none">
+            <p className="text-muted-foreground leading-relaxed mb-6">
               Marketplace Makers is built to serve a two-sided marketplace, with a distinct value proposition for each user group: the creators and the buyers.
             </p>
             
-            <div>
+            <div className="mb-6">
               <h3 className="text-xl font-semibold mb-4 text-foreground">For Creators:</h3>
               <div className="space-y-4 text-muted-foreground">
                 <p>
@@ -179,10 +179,10 @@ const MarketplaceMakers = () => {
         </section>
 
         {/* The Product: Marketplace Makers */}
-        <section id="section-4" className="mb-20">
-          <h2 className="text-3xl font-semibold mb-8 text-coral">The Product: Marketplace Makers</h2>
-          <div className="space-y-6 text-body-large leading-relaxed">
-            <p className="text-muted-foreground">
+        <section id="section-4" className="mb-16 scroll-mt-24">
+          <h2 className="text-2xl font-semibold mb-6">The Product: Marketplace Makers</h2>
+          <div className="prose prose-lg max-w-none">
+            <p className="text-muted-foreground leading-relaxed mb-6">
               Marketplace Makers is seamlessly integrated into the existing Facebook Marketplace experience, while offering a distinct, elevated journey for buyers seeking handmade items.
             </p>
             
@@ -210,63 +210,103 @@ const MarketplaceMakers = () => {
         </section>
 
         {/* Design & User Flow */}
-        <section id="section-5" className="mb-20">
-          <h2 className="text-3xl font-semibold mb-8 text-coral">Design & User Flow</h2>
-          <div className="space-y-8 text-body-large leading-relaxed">
-            <p className="text-muted-foreground">
+        <section id="section-5" className="mb-16 scroll-mt-24">
+          <h2 className="text-2xl font-semibold mb-6">Design & User Flow</h2>
+          <div className="prose prose-lg max-w-none">
+            <p className="text-muted-foreground leading-relaxed mb-6">
               The following low-fidelity Figma mockups illustrate the seamless user journey, highlighting a clean and intuitive design. The flow is designed to be straightforward, guiding both buyers and sellers through the enhanced experience.
             </p>
 
-            <div>
+            <div className="mb-8">
               <h3 className="text-xl font-semibold mb-4 text-foreground">Discovery & Curation:</h3>
-              <p className="text-muted-foreground mb-4">
+              <p className="text-muted-foreground leading-relaxed mb-4">
                 The main Marketplace Makers page is designed for visual appeal and easy navigation, showcasing high-quality product photos and highlighting featured creators. It also includes filters for pickup vs. shipping and categories to tailor the experience to the user's needs.
               </p>
-              <div className="text-center text-sm text-muted-foreground italic">
-                [Marketplace Makers Main Page - Image placeholder]
+              <div className="text-center mb-4">
+                <img 
+                  src="/lovable-uploads/marketplace-makers-mainpage.png" 
+                  alt="Marketplace Makers Main Page"
+                  className="w-full max-w-3xl mx-auto rounded-lg border"
+                  style={{ width: '70%' }}
+                />
+                <p className="text-sm text-muted-foreground italic mt-2">Marketplace Makers Main Page</p>
               </div>
             </div>
 
-            <div>
+            <div className="mb-8">
               <h3 className="text-xl font-semibold mb-4 text-foreground">Product Details & Storytelling:</h3>
-              <p className="text-muted-foreground mb-4">
+              <p className="text-muted-foreground leading-relaxed mb-4">
                 Clicking on a product takes the user to a dedicated details page. This view emphasizes the unique story behind the item, with specific fields for materials and the "Item Story", which is a key differentiator for the brand. The layout subtly changes to reflect whether the item is for shipping or local pickup.
               </p>
-              <div className="space-y-2 text-center text-sm text-muted-foreground italic">
-                <div>[Local Pick Up Only Product Details - Image placeholder]</div>
-                <div>[Shippable Product Details - Image placeholder]</div>
+              <div className="space-y-6">
+                <div className="text-center">
+                  <img 
+                    src="/lovable-uploads/marketplace-makers-bracelet-productpage.png" 
+                    alt="Local Pick Up Only Product Details"
+                    className="w-full max-w-3xl mx-auto rounded-lg border"
+                    style={{ width: '70%' }}
+                  />
+                  <p className="text-sm text-muted-foreground italic mt-2">Local Pick Up Only Product Details</p>
+                </div>
+                <div className="text-center">
+                  <img 
+                    src="/lovable-uploads/marketplace-makers-scarf-productpage.png" 
+                    alt="Shippable Product Details"
+                    className="w-full max-w-3xl mx-auto rounded-lg border"
+                    style={{ width: '70%' }}
+                  />
+                  <p className="text-sm text-muted-foreground italic mt-2">Shippable Product Details</p>
+                </div>
               </div>
             </div>
 
             <div>
               <h3 className="text-xl font-semibold mb-4 text-foreground">Shopping Cart & Checkout:</h3>
-              <p className="text-muted-foreground mb-4">
+              <p className="text-muted-foreground leading-relaxed mb-4">
                 The checkout process is designed for simplicity and security. A unified shopping cart allows users to manage both shippable and local pickup items.
               </p>
-              <div className="text-center text-sm text-muted-foreground italic mb-4">
-                [Shopping Cart - Image placeholder]
+              <div className="text-center mb-6">
+                <img 
+                  src="/lovable-uploads/marketplace-makers-scarf-cart.png" 
+                  alt="Shopping Cart"
+                  className="w-full max-w-3xl mx-auto rounded-lg border"
+                  style={{ width: '70%' }}
+                />
+                <p className="text-sm text-muted-foreground italic mt-2">Shopping Cart</p>
               </div>
-              <p className="text-muted-foreground mb-4">
+              <p className="text-muted-foreground leading-relaxed mb-4">
                 From there, the checkout pages are strategically designed based on the fulfillment method. For both shippable and local pickup, Meta Pay is the default, pre-selected payment option. This design choice provides a one-click checkout experience and encourages the adoption of Meta Pay. However, for flexibility, a secondary option allows users to pay with a credit or debit card.
               </p>
-              <div className="text-center text-sm text-muted-foreground italic mb-4">
-                [Checkout Page for Shippable Product - Image placeholder]
+              <div className="text-center mb-6">
+                <img 
+                  src="/lovable-uploads/marketplace-makers-scarf-checkout.png" 
+                  alt="Checkout Page for Shippable Product"
+                  className="w-full max-w-3xl mx-auto rounded-lg border"
+                  style={{ width: '70%' }}
+                />
+                <p className="text-sm text-muted-foreground italic mt-2">Checkout Page for Shippable Product</p>
               </div>
-              <p className="text-muted-foreground">
+              <p className="text-muted-foreground leading-relaxed mb-4">
                 For local pickup items, the checkout flow also includes additional options for an in-person transfer or cash payment, acknowledging the unique nature of these transactions. This distinction in the checkout flow ensures a smooth and tailored experience, regardless of how the buyer chooses to receive their item.
               </p>
-              <div className="text-center text-sm text-muted-foreground italic">
-                [Checkout Page for a Pick Up Only Product - Image placeholder]
+              <div className="text-center">
+                <img 
+                  src="/lovable-uploads/marketplace-makers-bracelet-checkout.png" 
+                  alt="Checkout Page for a Pick Up Only Product"
+                  className="w-full max-w-3xl mx-auto rounded-lg border"
+                  style={{ width: '70%' }}
+                />
+                <p className="text-sm text-muted-foreground italic mt-2">Checkout Page for a Pick Up Only Product</p>
               </div>
             </div>
           </div>
         </section>
 
         {/* Success Metrics */}
-        <section id="section-6" className="mb-20">
-          <h2 className="text-3xl font-semibold mb-8 text-coral">Success Metrics</h2>
-          <div className="space-y-6 text-body-large leading-relaxed">
-            <div>
+        <section id="section-6" className="mb-16 scroll-mt-24">
+          <h2 className="text-2xl font-semibold mb-6">Success Metrics</h2>
+          <div className="prose prose-lg max-w-none">
+            <div className="mb-6">
               <h3 className="text-xl font-semibold mb-4 text-foreground">Primary Metrics (Engagement & Business):</h3>
               <ul className="space-y-2 text-muted-foreground ml-6">
                 <li><strong>DAU on the Marketplace Makers Feed:</strong> Our North Star metric, measuring daily engagement with the new feature.</li>
@@ -288,14 +328,14 @@ const MarketplaceMakers = () => {
         </section>
 
         {/* Next Steps */}
-        <section id="section-7" className="mb-20">
-          <h2 className="text-3xl font-semibold mb-8 text-coral">Next Steps</h2>
-          <div className="space-y-8 text-body-large leading-relaxed">
-            <p className="text-muted-foreground">
+        <section id="section-7" className="mb-16 scroll-mt-24">
+          <h2 className="text-2xl font-semibold mb-6">Next Steps</h2>
+          <div className="prose prose-lg max-w-none">
+            <p className="text-muted-foreground leading-relaxed mb-6">
               While this initial MVP provides a strong foundation, a full-scale product roadmap would include several key phases of development and iteration.
             </p>
 
-            <div>
+            <div className="mb-6">
               <h3 className="text-xl font-semibold mb-4 text-foreground">Phase 2: Creator Empowerment & Community Building:</h3>
               <ul className="space-y-2 text-muted-foreground ml-6">
                 <li><strong>Creator Profiles:</strong> Launch dedicated mini-storefronts where makers can build their brand, showcase all their products, and tell their story. This would foster repeat buyers and brand loyalty.</li>
@@ -304,7 +344,7 @@ const MarketplaceMakers = () => {
               </ul>
             </div>
 
-            <div>
+            <div className="mb-6">
               <h3 className="text-xl font-semibold mb-4 text-foreground">Phase 3: Discovery & Personalization:</h3>
               <ul className="space-y-2 text-muted-foreground ml-6">
                 <li><strong>Advanced AI Curation:</strong> Enhance the algorithm to offer highly personalized product recommendations based on a user's browsing history, interests, and past purchases.</li>
@@ -327,7 +367,7 @@ const MarketplaceMakers = () => {
         <div className="border-t border-border pt-8">
           <Link 
             to="/portfolio" 
-            className="inline-flex items-center text-muted-foreground hover:text-coral transition-colors"
+            className="inline-flex items-center text-coral hover:text-coral/80 transition-colors font-bold"
           >
             <ArrowLeft className="mr-2 h-4 w-4" />
             Back to Portfolio
