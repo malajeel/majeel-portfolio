@@ -41,6 +41,30 @@ const Portfolio = () => {
             </div>
           </div>
 
+          {/* Spotify Sing It! Project */}
+          <div className="group border border-border rounded-lg overflow-hidden hover:shadow-lg transition-all duration-300 animate-slide-up">
+            <div className="p-8">
+              <div className="flex flex-col md:flex-row md:items-center md:justify-between">
+                <div className="flex-1">
+                  <h3 className="text-2xl font-semibold mb-3 group-hover:text-coral transition-colors">
+                    Spotify Sing It!
+                  </h3>
+                  <p className="text-muted-foreground mb-4 leading-relaxed">
+                    Spotify Sing It! is an exclusive in-app game that drives Premium user engagement by leveraging personal playlists for a social music challenge. The game encourages both friendly competition and personal rediscovery, creating a fun, interactive experience on a single device. This product is positioned to transform passive listening into an active, gamified experience and to serve as the foundation for a new portfolio of music-based games.
+                  </p>
+                </div>
+                <div className="md:ml-8">
+                  <Link to="/portfolio/spotify-sing-it">
+                    <Button variant="outline" className="group/btn">
+                      View Project
+                      <ArrowRight className="ml-2 h-4 w-4 group-hover/btn:translate-x-1 transition-transform" />
+                    </Button>
+                  </Link>
+                </div>
+              </div>
+            </div>
+          </div>
+
           {/* Facebook Marketplace Makers Project */}
           <div className="group border border-border rounded-lg overflow-hidden hover:shadow-lg transition-all duration-300 animate-slide-up">
             <div className="p-8">

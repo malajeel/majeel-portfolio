@@ -8,6 +8,7 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Portfolio from "./pages/Portfolio";
 import LegoMiniCity from "./pages/LegoMiniCity";
+import SpotifySingIt from "./pages/SpotifySingIt";
 import MarketplaceMakers from "./pages/MarketplaceMakers";
 import EyeFly from "./pages/EyeFly";
 import Contact from "./pages/Contact";
@@ -27,6 +28,7 @@ const App = () => (
             <Route path="/about" element={<About />} />
             <Route path="/portfolio" element={<Portfolio />} />
             <Route path="/portfolio/lego-mini-city" element={<LegoMiniCity />} />
+            <Route path="/portfolio/spotify-sing-it" element={<SpotifySingIt />} />
             <Route path="/portfolio/marketplace-makers" element={<MarketplaceMakers />} />
             <Route path="/portfolio/eyefly" element={<EyeFly />} />
             <Route path="/contact" element={<Contact />} />
