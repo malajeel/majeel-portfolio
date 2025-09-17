@@ -190,7 +190,7 @@ const LegoMiniCity = () => {
               To enhance the product's value and foster a global community, the LEGO Mini City line is tied to a companion mobile app. To bridge the physical and digital experience, a unique QR code is included within each set's instruction manual, which serves as a key to unlock the digital features in the companion app.
             </p>
             
-            <div className="bg-card border border-border rounded-lg p-6 mb-6">
+            <div className="bg-coral/5 border border-coral/20 rounded-lg p-6 mb-6">
               <div className="flex items-center justify-between">
                 <div>
                   <h3 className="font-semibold mb-2">Interactive Figma Prototype</h3>

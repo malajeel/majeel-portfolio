@@ -223,7 +223,7 @@ const SpotifySingIt = () => {
               This project was meticulously designed in Figma to create a seamless and intuitive user experience for both solo and group play. The visual design is clean and familiar, aligning with Spotify's existing brand identity, while the user flow is optimized for a simple, engaging game.
             </p>
             
-            <div className="bg-card border border-border rounded-lg p-6 mb-6">
+            <div className="bg-coral/5 border border-coral/20 rounded-lg p-6 mb-6">
               <div className="flex items-center justify-between">
                 <div>
                   <h3 className="font-semibold mb-2">Interactive Figma Prototype</h3>
