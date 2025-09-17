@@ -6,7 +6,7 @@ interface PortfolioProgressProps {
 
 const PortfolioProgress = ({ sections, activeSection, onSectionClick }: PortfolioProgressProps) => {
   return (
-    <div className="fixed left-8 top-1/2 transform -translate-y-1/2 hidden lg:block z-40">
+    <div className="fixed left-8 top-1/2 -translate-y-1/2 hidden lg:block z-40">
       <div className="relative">
         {/* Vertical line */}
         <div className="absolute left-2 top-0 bottom-0 w-0.5 bg-progress-line"></div>
