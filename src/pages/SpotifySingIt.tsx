@@ -393,6 +393,8 @@ const SpotifySingIt = () => {
           <div className="bg-card border border-border rounded-lg p-6">
             <div className="flex flex-wrap gap-3">
               <span className="bg-coral/10 text-coral px-3 py-1 rounded-full text-sm">Product Strategy</span>
+              <span className="bg-coral/10 text-coral px-3 py-1 rounded-full text-sm">PRD</span>
+              <span className="bg-coral/10 text-coral px-3 py-1 rounded-full text-sm">Data-Informed Decision Making</span>
               <span className="bg-coral/10 text-coral px-3 py-1 rounded-full text-sm">Roadmap & Feature Prioritization</span>
               <span className="bg-coral/10 text-coral px-3 py-1 rounded-full text-sm">Success Metrics Definition</span>
               <span className="bg-coral/10 text-coral px-3 py-1 rounded-full text-sm">Market Research</span>
@@ -406,6 +408,14 @@ const SpotifySingIt = () => {
             </div>
           </div>
         </section>
+
+        {/* Back to Portfolio */}
+        <div className="flex justify-start items-center pt-8 border-t border-border">
+          <Link to="/portfolio" className="inline-flex items-center text-coral hover:text-coral/80 transition-colors font-bold">
+            <ArrowLeft className="mr-2 h-4 w-4" />
+            Back to Portfolio
+          </Link>
+        </div>
       </div>
     </div>
   );
