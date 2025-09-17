@@ -175,12 +175,9 @@ const SpotifySingIt = () => {
           
           <div className="space-y-6">
             <div className="bg-card border border-border rounded-lg p-6">
-              <h3 className="font-semibold mb-3">Name & Value Proposition</h3>
-              <p className="text-muted-foreground mb-4">
-                <strong>Name:</strong> Spotify Sing It!
-              </p>
+              <h3 className="font-semibold mb-3">Value Proposition</h3>
               <p className="text-muted-foreground">
-                <strong>Value Proposition:</strong> Exclusive to Premium Spotify subscribers, this unique feature turns your playlists into a game, encouraging both playful rivalry with friends and personal rediscovery. Whether you're in a musical showdown with your group or challenging your own memory on a solo mission, it's a new, engaging way to connect with the music you love.
+                Exclusive to Premium Spotify subscribers, this unique feature turns your playlists into a game, encouraging both playful rivalry with friends and personal rediscovery. Whether you're in a musical showdown with your group or challenging your own memory on a solo mission, it's a new, engaging way to connect with the music you love.
               </p>
             </div>
             
