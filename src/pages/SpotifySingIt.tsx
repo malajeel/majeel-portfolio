@@ -162,8 +162,8 @@ const SpotifySingIt = () => {
         {/* Product Vision */}
         <section id="section-4" className="mb-16 scroll-mt-24">
           <h2 className="text-2xl font-semibold mb-6">Product Vision</h2>
-          <div className="bg-coral/5 border border-coral/20 rounded-lg p-6">
-            <p className="text-foreground leading-relaxed">
+          <div className="prose prose-lg max-w-none">
+            <p className="text-muted-foreground leading-relaxed">
               The product vision is for Spotify Sing It! to become a core part of the Spotify experience, evolving from a simple game to a foundational platform for all music-based social games. The product will not only increase session length and engagement but also create a new, sticky social layer that strengthens user retention and differentiates Spotify from its competitors. In the future, this feature could expand to include real-time multiplayer challenges, collaborative game modes, and cross-device integration.
             </p>
           </div>
