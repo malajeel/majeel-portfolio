@@ -393,8 +393,6 @@ const SpotifySingIt = () => {
           <div className="bg-card border border-border rounded-lg p-6">
             <div className="flex flex-wrap gap-3">
               <span className="bg-coral/10 text-coral px-3 py-1 rounded-full text-sm">Product Strategy</span>
-              <span className="bg-coral/10 text-coral px-3 py-1 rounded-full text-sm">PRD</span>
-              <span className="bg-coral/10 text-coral px-3 py-1 rounded-full text-sm">Data-Informed Decision Making</span>
               <span className="bg-coral/10 text-coral px-3 py-1 rounded-full text-sm">Roadmap & Feature Prioritization</span>
               <span className="bg-coral/10 text-coral px-3 py-1 rounded-full text-sm">Success Metrics Definition</span>
               <span className="bg-coral/10 text-coral px-3 py-1 rounded-full text-sm">Market Research</span>

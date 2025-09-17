@@ -3,9 +3,10 @@ import { GraduationCap, Briefcase, Award } from "lucide-react";
 const About = () => {
   const skills = [
     "Market Research", "User Research", "Go-to-Market Strategy", "Agile/Scrum",
-    "User Stories", "Product Strategy", "A/B Testing", "PRD", "Wireframing",
-    "Stakeholder Management", "Jira", "Confluence", "Figma", "Miro", "Asana",
-    "Notion", "Tableau", "SQL"
+    "User Stories", "Product Strategy", "A/B Testing", "PRD", "Data-Informed Decision Making", 
+    "Roadmap & Feature Prioritization", "Success Metrics Definition", "User Journey Mapping", 
+    "User-Centered Design Thinking", "Wireframing", "Stakeholder Management", "Jira", 
+    "Confluence", "Figma", "Miro", "Asana", "Notion", "Tableau", "SQL"
   ];
 
   const experiences = [
