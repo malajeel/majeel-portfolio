@@ -1,2 +1,13 @@
 User-agent: *
 Disallow: /
+
+# Allow LinkedIn bot for social media previews
+User-agent: LinkedInBot
+Allow: /
+
+# Allow other social media crawlers for previews
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: Twitterbot
+Allow: /
