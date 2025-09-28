@@ -3,35 +3,56 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="noindex, follow" />
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+    <link rel="icon" href="/lovable-uploads/b3f3ff93-b47f-4026-907e-30671254d24b.png" type="image/png">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap">
-    <title>Maryam Al-Ajeel - Product Manager Portfolio</title>
+    <title>Maryam Al-Ajeel Portfolio</title>
     <meta name="description" content="Certified Product Manager with electrical engineering background. Specializing in product strategy, user research, and agile development." />
-    <meta name="author" content="Maryam Al-Ajeel" />
-
+    
+    <!-- Open Graph meta tags for LinkedIn -->
     <meta property="og:title" content="Maryam Al-Ajeel - Product Manager Portfolio" />
     <meta property="og:description" content="Certified Product Manager with electrical engineering background. Specializing in product strategy, user research, and agile development." />
     <meta property="og:type" content="website" />
-    <meta property="og:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
-
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:site" content="@lovable_dev" />
-    <meta name="twitter:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
+    <meta property="og:url" content="https://www.malajeel.me/" />
+    <meta property="og:image" content="https://www.malajeel.me/lovable-uploads/b3f3ff93-b47f-4026-907e-30671254d24b.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    
+    <!-- LinkedIn specific tags -->
+    <meta name="linkedin:owner" content="Maryam Al-Ajeel" />
+    
+    <!-- Structured data for LinkedIn -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Maryam Al-Ajeel",
+      "jobTitle": "Product Manager",
+      "description": "Certified Product Manager with electrical engineering background",
+      "url": "https://www.malajeel.me/",
+      "sameAs": [
+        "https://www.linkedin.com/in/maryam-al-ajeel/"
+      ],
+      "knowsAbout": ["Product Management", "User Research", "Agile Development", "Product Strategy"]
+    }
+    </script>
 
     <script type="text/javascript">
       // Single Page Apps for GitHub Pages
       // https://github.com/rafgraph/spa-github-pages
-      // This script checks to see if a redirect is present in the query string,
-      // converts it back into the correct url and adds it to the browser's history using window.history.replaceState(...)
-      (function(l) {
-        if (l.search[1] === '/' ) {
-          var decoded = l.search.slice(1).split('&').map(function(s) { 
-            return s.replace(/~and~/g, '&')
-          }).join('?');
-          window.history.replaceState(null, null,
-              l.pathname.slice(0, -1) + decoded + l.hash
-          );
-        }
-      }(window.location))
+      // This script takes the current url and converts it to the format expected by the spa-github-pages
+      var pathSegmentsToKeep = 0;
+      var l = window.location;
+      l.replace(
+        l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') +
+        l.pathname.split('/').slice(0, 1 + pathSegmentsToKeep).join('/') + '/?/' +
+        l.pathname.slice(1).split('/').slice(pathSegmentsToKeep).join('/').replace(/&/g, '~and~') +
+        (l.search ? '&' + l.search.slice(1).replace(/&/g, '~and~') : '') +
+        l.hash
+      );
     </script>
   </head>
 
