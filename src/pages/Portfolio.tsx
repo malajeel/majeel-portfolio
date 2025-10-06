@@ -74,7 +74,7 @@ const Portfolio = () => {
                     Facebook Marketplace Makers
                   </h3>
                   <p className="text-muted-foreground mb-4 leading-relaxed">
-                    A new commerce experience is proposed for Facebook Marketplace to overcome its reputation as a transactional platform for commodity goods. The Marketplace Makers feature is designed to connect individuals who create unique, handmade products with an audience eager to discover and purchase them. This initiative will transform the platform into a curated marketplace, strengthening its role in the broader commerce ecosystem.
+                    A new commerce experience is proposed for Facebook Marketplace to move beyond its reputation as a platform for commodity transactions. Marketplace Makers will connect creators of unique, handmade products with audiences eager to discover and purchase them. This initiative transforms Marketplace into a curated destination and strengthens its position within the broader commerce ecosystem.
                   </p>
                 </div>
                 <div className="md:ml-8">
