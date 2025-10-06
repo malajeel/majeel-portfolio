@@ -26,7 +26,7 @@ const Portfolio = () => {
                     LEGO Mini City
                   </h3>
                   <p className="text-muted-foreground mb-4 leading-relaxed">
-                    A comprehensive product development project featuring both physical product design and a digital companion app. The LEGO Mini City reimagines souvenirs through collectible, geo-exclusive LEGO sets paired with an interactive app, transforming traditional keepsakes into meaningful, hands-on experiences. This project showcases end-to-end product strategy, market research, and go-to-market planning.
+                    A comprehensive product development project featuring both physical product design and a digital companion app. The LEGO Mini City reimagines souvenirs through collectible, geo-exclusive LEGO sets paired with an interactive app, transforming traditional keepsakes into meaningful, hands-on experiences.
                   </p>
                 </div>
                 <div className="md:ml-8">
@@ -50,7 +50,7 @@ const Portfolio = () => {
                     Spotify Sing It!
                   </h3>
                   <p className="text-muted-foreground mb-4 leading-relaxed">
-                    Spotify Sing It! is an exclusive in-app game that drives Premium user engagement by leveraging personal playlists for a social music challenge. The game encourages both friendly competition and personal rediscovery, creating a fun, interactive experience on a single device. This product is positioned to transform passive listening into an active, gamified experience and to serve as the foundation for a new portfolio of music-based games.
+                    Spotify Sing It! is an in-app game that boosts Premium engagement by turning personal playlists into a social music challenge. The game blends friendly competition with personal rediscovery, creating a fun, interactive experience on a single device. It transforms passive listening into an active, gamified experience and lays the foundation for a new portfolio of music-based games.
                   </p>
                 </div>
                 <div className="md:ml-8">
