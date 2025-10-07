@@ -390,7 +390,7 @@ const LegoMiniCity = () => {
                 <span className="bg-coral/10 text-coral px-3 py-1 rounded-full text-sm">Agile Development</span>
                 <span className="bg-coral/10 text-coral px-3 py-1 rounded-full text-sm">Figma</span>
                 <span className="bg-coral/10 text-coral px-3 py-1 rounded-full text-sm">BrickLink</span>
-                <span className="bg-coral/10 text-coral px-3 py-1 rounded-full text-sm">MS Paint (yes some people still use it)</span>
+                <span className="bg-coral/10 text-coral px-3 py-1 rounded-full text-sm">MS Paint (yes I still use it)</span>
               </div>
             </div>
           </div>
