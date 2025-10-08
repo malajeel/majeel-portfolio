@@ -89,13 +89,22 @@ const LegoMiniCity = () => {
           <h2 className="text-2xl font-semibold mb-6">Industry Gap</h2>
           <div className="prose prose-lg max-w-none">
             <p className="text-muted-foreground leading-relaxed">
-              The current souvenir market struggles with a lack of authenticity and value. Generic items like mass-produced keychains, t-shirts, and mugs often feel impersonal and are of poor quality. Decorative options, while sometimes more meaningful, are often fragile, expensive, and not universally appealing.
+              The current souvenir market struggles with authenticity and value. Generic items like mass-produced keychains, t-shirts, and mugs often feel impersonal and poorly made. Decorative souvenirs, while sometimes more meaningful, are often fragile, expensive, or lack broad appeal.
             </p>
             <p className="text-muted-foreground leading-relaxed mt-4">
-              Even LEGO's existing travel-themed sets, such as the Creator Postcards and Architecture Skylines, suffer from widespread availability that diminishes their value as personal mementos. Because a Tokyo postcard set can be ordered online from Canada without ever visiting the country, it lacks the personal connection that a true souvenir provides.
+              LEGO has introduced a range of travel and destination-themed sets celebrating global landmarks. The Creator Postcards series includes small builds representing cities like London, Paris, New York, Beijing, and Japan. However, online users have raised concerns about inconsistency in representation. While most sets highlight individual cities, the Australia and Japan sets cover an entire country, which can feel reductive for a place so large and diverse.
             </p>
             <p className="text-muted-foreground leading-relaxed mt-4">
-              There is a clear gap for a unique, high-quality, and interactive souvenir that is both easy to transport and exclusive to the location it represents. It can create a lasting and meaningful memory for travellers, whether they choose to purchase it for themselves or as a thoughtful gift to share with others.
+              The Architecture Skyline series offers a more cohesive approach by combining several iconic landmarks from a single city into one compact build. For example, the New York City set features the Empire State Building, the Statue of Liberty, and other recognizable structures, providing a fuller sense of place.
+            </p>
+            <p className="text-muted-foreground leading-relaxed mt-4">
+              LEGO has also explored interactive travel experiences through its Travel Moments set, which allows users to build a customizable world map. With interchangeable tiles and photo holders, it supports personal storytelling. However, like other LEGO travel sets, it is widely available online, which reduces its value as a location-specific souvenir.
+            </p>
+            <p className="text-muted-foreground leading-relaxed mt-4">
+              While these sets are well-designed and globally appealing, their universal availability limits their emotional impact. When a Tokyo-themed set can be purchased without ever visiting Japan, it risks becoming just another collectible rather than a meaningful memento. This highlights a missed opportunity for exclusive, locally sold LEGO sets that offer stronger cultural and emotional significance for travellers.
+            </p>
+            <p className="text-muted-foreground leading-relaxed mt-4">
+              There is a clear gap for a unique, high-quality, and interactive souvenir that is easy to transport and only available in the place it represents. Such a product could create lasting memories for travellers, whether purchased for themselves or as a thoughtful gift. Another gap in the souvenir market is the lack of gamification and digital engagement. This can be addressed by incorporating a companion mobile app that enhances the physical product experience, encouraging travellers to connect, share, and engage with a global community of travellers.
             </p>
           </div>
         </section>
