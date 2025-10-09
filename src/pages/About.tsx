@@ -5,7 +5,8 @@ const About = () => {
     "Market Research", "User Research", "Go-to-Market Strategy", "Agile/Scrum",
     "User Stories", "Product Strategy", "A/B Testing", "PRD", "Data-Informed Decision Making", 
     "Roadmap & Feature Prioritization", "Success Metrics Definition", "User Journey Mapping", 
-    "User-Centered Design Thinking", "Wireframing", "Stakeholder Management", "Jira", 
+    "User-Centered Design Thinking", "Wireframing", "Stakeholder Management", "Persona Development", 
+    "Product Vision Alignment", "Exploratory Research", "User interviewing", "Insight Translation", "Jira", 
     "Confluence", "Figma", "Miro", "Asana", "Notion", "Tableau", "SQL"
   ];
 
