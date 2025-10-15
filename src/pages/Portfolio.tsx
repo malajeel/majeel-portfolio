@@ -10,6 +10,7 @@ const Portfolio = () => {
         <div className="text-center mb-16 animate-fade-in">
           <h1 className="text-section-title mb-6">Portfolio</h1>
           <div className="w-16 h-1 bg-coral mx-auto mb-6"></div>
+          <p className="text-muted-foreground text-lg">A selection of projects I am proud of:</p>
         </div>
 
         {/* Projects Grid */}
